@@ -1,4 +1,4 @@
-# GNN’s FAME: Fairness-Aware MEssages for Graph Neural Networks
+# Clone of GNN’s FAME: Fairness-Aware MEssages for Graph Neural Networks (UMAP 2025)
 
 This repository contains the code and experiments for the paper "GNN’s FAME: Fairness-Aware MEssages for Graph Neural Networks".
 The primary contribution of this work is the development of two novel in-processing and GNN-specific bias mitigation approaches, namely **FAME** (Fairness-Aware MEssages) and its variant **A-FAME** (Attention-based Fairness-Aware MEssages), designed for GCN-based and GAT-based architectures, respectively.
