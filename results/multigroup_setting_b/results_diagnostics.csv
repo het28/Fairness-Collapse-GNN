@@ -1,0 +1,10 @@
+dataset,model,n_seeds,diagnostics_n_test,diagnostics_n_S0,diagnostics_n_S1,diagnostics_n_pos_S0,diagnostics_n_pos_S1,diagnostics_TPR_denom_S0,diagnostics_TPR_denom_S1,diagnostics_FPR_denom_S0,diagnostics_FPR_denom_S1,diagnostics_pred_pos_overall_mean,diagnostics_pred_pos_overall_std,diagnostics_pred_pos_S0_mean,diagnostics_pred_pos_S0_std,diagnostics_pred_pos_S1_mean,diagnostics_pred_pos_S1_std,diagnostics_TPR_S0_mean,diagnostics_TPR_S0_std,diagnostics_TPR_S1_mean,diagnostics_TPR_S1_std,diagnostics_FPR_S0_mean,diagnostics_FPR_S0_std,diagnostics_FPR_S1_mean,diagnostics_FPR_S1_std
+bail,GAT,30,,,,,,,,,,,,,,,,,,,,,,,
+bail,GCN,30,,,,,,,,,,,,,,,,,,,,,,,
+bail,GIN,30,,,,,,,,,,,,,,,,,,,,,,,
+credit,GAT,30,,,,,,,,,,,,,,,,,,,,,,,
+credit,GCN,30,,,,,,,,,,,,,,,,,,,,,,,
+credit,GIN,30,,,,,,,,,,,,,,,,,,,,,,,
+german,GAT,30,,,,,,,,,,,,,,,,,,,,,,,
+german,GCN,30,,,,,,,,,,,,,,,,,,,,,,,
+german,GIN,30,,,,,,,,,,,,,,,,,,,,,,,

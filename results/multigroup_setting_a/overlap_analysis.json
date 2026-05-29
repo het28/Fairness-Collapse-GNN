@@ -1,0 +1,45 @@
+{
+  "credit": {
+    "Statistical Parity Difference": [
+      "GCN vs GAT"
+    ],
+    "Equal Opportunity Difference": [
+      "GCN vs GAT"
+    ],
+    "Overall Accuracy Equality Difference": [
+      "GCN vs GAT",
+      "GCN vs GIN",
+      "GAT vs GIN"
+    ]
+  },
+  "german": {
+    "Statistical Parity Difference": [
+      "GCN vs GAT"
+    ],
+    "Equal Opportunity Difference": [
+      "GCN vs GAT"
+    ],
+    "Overall Accuracy Equality Difference": [
+      "GCN vs GAT"
+    ],
+    "Treatment Equality Difference": [
+      "GCN vs GAT"
+    ],
+    "Accuracy": [
+      "GCN vs GAT"
+    ]
+  },
+  "bail": {
+    "Statistical Parity Difference": [
+      "GCN vs GAT",
+      "GAT vs GIN"
+    ],
+    "Equal Opportunity Difference": [
+      "GCN vs GAT",
+      "GAT vs GIN"
+    ],
+    "Overall Accuracy Equality Difference": [
+      "GCN vs GIN"
+    ]
+  }
+}

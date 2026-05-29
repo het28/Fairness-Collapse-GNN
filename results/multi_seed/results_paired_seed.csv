@@ -1,0 +1,676 @@
+dataset,model_a,model_b,metric,diff_mean,diff_std,diff_ci_low,diff_ci_high,n_seeds
+bail,GAT,GAT+FAME,Accuracy,0.3436,0.1565,0.3013,0.3874,50
+bail,GAT,GAT+FAME,Statistical Parity Difference,0.0487,0.0248,0.0419,0.0551,50
+bail,GAT,GAT+FAME,Equal Opportunity Difference,0.0187,0.0192,0.0135,0.0239,50
+bail,GAT,GAT+FAME,Overall Accuracy Equality Difference,-0.0431,0.0218,-0.0490,-0.0370,50
+bail,GAT,GAT+FAME,Treatment Equality Difference,3.1240,6.4446,1.5853,5.0642,50
+bail,GAT,GAT+FAME+PFR,Accuracy,0.3700,0.1524,0.2837,0.4634,10
+bail,GAT,GAT+FAME+PFR,Statistical Parity Difference,0.0548,0.0236,0.0392,0.0671,10
+bail,GAT,GAT+FAME+PFR,Equal Opportunity Difference,0.0181,0.0098,0.0124,0.0235,10
+bail,GAT,GAT+FAME+PFR,Overall Accuracy Equality Difference,-0.0502,0.0199,-0.0600,-0.0370,10
+bail,GAT,GAT+FAME+PFR,Treatment Equality Difference,0.2693,1.7902,-0.8359,1.1987,10
+bail,GAT,GAT+PFR,Accuracy,0.0235,0.0768,-0.0028,0.0726,10
+bail,GAT,GAT+PFR,Statistical Parity Difference,-0.0026,0.0092,-0.0086,0.0009,10
+bail,GAT,GAT+PFR,Equal Opportunity Difference,-0.0001,0.0002,-0.0002,0.0000,10
+bail,GAT,GAT+PFR,Overall Accuracy Equality Difference,-0.0016,0.0041,-0.0045,0.0000,10
+bail,GAT,GAT+PFR,Treatment Equality Difference,-0.4535,1.4340,-1.3604,0.0000,10
+bail,GAT,GCN,Accuracy,0.1718,0.1374,0.1330,0.2099,50
+bail,GAT,GCN,Statistical Parity Difference,0.0163,0.0234,0.0100,0.0228,50
+bail,GAT,GCN,Equal Opportunity Difference,0.0101,0.0157,0.0057,0.0143,50
+bail,GAT,GCN,Overall Accuracy Equality Difference,-0.0100,0.0174,-0.0146,-0.0053,50
+bail,GAT,GCN,Treatment Equality Difference,26.7428,57.5893,12.5326,43.4558,50
+bail,GAT,GCN+FAME,Accuracy,0.1267,0.1259,0.0928,0.1612,50
+bail,GAT,GCN+FAME,Statistical Parity Difference,0.0031,0.0145,-0.0015,0.0068,50
+bail,GAT,GCN+FAME,Equal Opportunity Difference,0.0022,0.0137,-0.0018,0.0055,50
+bail,GAT,GCN+FAME,Overall Accuracy Equality Difference,0.0011,0.0110,-0.0015,0.0044,50
+bail,GAT,GCN+FAME,Treatment Equality Difference,111.9631,81.0073,90.0287,134.9911,50
+bail,GAT,GCN+FAME+PFR,Accuracy,0.0657,0.1658,-0.0322,0.1629,10
+bail,GAT,GCN+FAME+PFR,Statistical Parity Difference,0.0142,0.0279,-0.0009,0.0308,10
+bail,GAT,GCN+FAME+PFR,Equal Opportunity Difference,0.0193,0.0326,0.0029,0.0424,10
+bail,GAT,GCN+FAME+PFR,Overall Accuracy Equality Difference,-0.0067,0.0222,-0.0221,0.0044,10
+bail,GAT,GCN+FAME+PFR,Treatment Equality Difference,9.7827,22.8487,0.3006,24.9702,10
+bail,GAT,GCN+PFR,Accuracy,0.1586,0.1230,0.0870,0.2274,10
+bail,GAT,GCN+PFR,Statistical Parity Difference,0.0105,0.0166,0.0010,0.0200,10
+bail,GAT,GCN+PFR,Equal Opportunity Difference,0.0118,0.0102,0.0063,0.0180,10
+bail,GAT,GCN+PFR,Overall Accuracy Equality Difference,-0.0144,0.0213,-0.0272,-0.0036,10
+bail,GAT,GCN+PFR,Treatment Equality Difference,37.0195,59.0421,11.7905,77.4322,10
+bail,GAT,GIN,Accuracy,0.3426,0.1692,0.2965,0.3899,50
+bail,GAT,GIN,Statistical Parity Difference,0.0521,0.0172,0.0473,0.0565,50
+bail,GAT,GIN,Equal Opportunity Difference,0.0254,0.0147,0.0216,0.0293,50
+bail,GAT,GIN,Overall Accuracy Equality Difference,-0.0413,0.0146,-0.0450,-0.0368,50
+bail,GAT,GIN,Treatment Equality Difference,0.0030,0.7559,-0.2315,0.1751,50
+bail,GAT,GIN+PFR,Accuracy,0.2646,0.1733,0.1629,0.3668,10
+bail,GAT,GIN+PFR,Statistical Parity Difference,0.0503,0.0212,0.0381,0.0620,10
+bail,GAT,GIN+PFR,Equal Opportunity Difference,0.0205,0.0122,0.0133,0.0278,10
+bail,GAT,GIN+PFR,Overall Accuracy Equality Difference,-0.0460,0.0164,-0.0540,-0.0354,10
+bail,GAT,GIN+PFR,Treatment Equality Difference,-0.4232,1.4416,-1.3409,0.0438,10
+bail,GAT+FAME,GAT+FAME+PFR,Accuracy,0.0220,0.0529,-0.0017,0.0569,10
+bail,GAT+FAME,GAT+FAME+PFR,Statistical Parity Difference,0.0081,0.0145,0.0008,0.0172,10
+bail,GAT+FAME,GAT+FAME+PFR,Equal Opportunity Difference,0.0052,0.0077,0.0009,0.0100,10
+bail,GAT+FAME,GAT+FAME+PFR,Overall Accuracy Equality Difference,-0.0065,0.0127,-0.0146,-0.0008,10
+bail,GAT+FAME,GAT+FAME+PFR,Treatment Equality Difference,-0.2259,0.6773,-0.6365,0.1538,10
+bail,GAT+FAME,GAT+PFR,Accuracy,-0.3245,0.1739,-0.4187,-0.2282,10
+bail,GAT+FAME,GAT+PFR,Statistical Parity Difference,-0.0493,0.0273,-0.0637,-0.0326,10
+bail,GAT+FAME,GAT+PFR,Equal Opportunity Difference,-0.0130,0.0107,-0.0195,-0.0067,10
+bail,GAT+FAME,GAT+PFR,Overall Accuracy Equality Difference,0.0422,0.0240,0.0272,0.0552,10
+bail,GAT+FAME,GAT+PFR,Treatment Equality Difference,-0.9486,0.9750,-1.5491,-0.4064,10
+bail,GAT+FAME,GCN,Accuracy,-0.1718,0.1203,-0.2036,-0.1376,50
+bail,GAT+FAME,GCN,Statistical Parity Difference,-0.0324,0.0292,-0.0405,-0.0239,50
+bail,GAT+FAME,GCN,Equal Opportunity Difference,-0.0086,0.0210,-0.0140,-0.0028,50
+bail,GAT+FAME,GCN,Overall Accuracy Equality Difference,0.0331,0.0244,0.0263,0.0395,50
+bail,GAT+FAME,GCN,Treatment Equality Difference,23.6188,58.1902,9.7651,40.7447,50
+bail,GAT+FAME,GCN+FAME,Accuracy,-0.2169,0.1052,-0.2442,-0.1864,50
+bail,GAT+FAME,GCN+FAME,Statistical Parity Difference,-0.0456,0.0226,-0.0515,-0.0391,50
+bail,GAT+FAME,GCN+FAME,Equal Opportunity Difference,-0.0165,0.0170,-0.0212,-0.0120,50
+bail,GAT+FAME,GCN+FAME,Overall Accuracy Equality Difference,0.0442,0.0195,0.0382,0.0493,50
+bail,GAT+FAME,GCN+FAME,Treatment Equality Difference,108.8391,80.5654,86.6677,132.6156,50
+bail,GAT+FAME,GCN+FAME+PFR,Accuracy,-0.2823,0.1693,-0.3780,-0.1822,10
+bail,GAT+FAME,GCN+FAME+PFR,Statistical Parity Difference,-0.0325,0.0351,-0.0518,-0.0103,10
+bail,GAT+FAME,GCN+FAME+PFR,Equal Opportunity Difference,0.0064,0.0328,-0.0102,0.0279,10
+bail,GAT+FAME,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0371,0.0274,0.0213,0.0526,10
+bail,GAT+FAME,GCN+FAME+PFR,Treatment Equality Difference,9.2876,22.9987,-0.2164,24.1062,10
+bail,GAT+FAME,GCN+PFR,Accuracy,-0.1894,0.1280,-0.2565,-0.1102,10
+bail,GAT+FAME,GCN+PFR,Statistical Parity Difference,-0.0363,0.0301,-0.0525,-0.0176,10
+bail,GAT+FAME,GCN+PFR,Equal Opportunity Difference,-0.0011,0.0138,-0.0089,0.0069,10
+bail,GAT+FAME,GCN+PFR,Overall Accuracy Equality Difference,0.0294,0.0291,0.0123,0.0465,10
+bail,GAT+FAME,GCN+PFR,Treatment Equality Difference,36.5244,59.4975,10.3506,77.5133,10
+bail,GAT+FAME,GIN,Accuracy,-0.0010,0.1684,-0.0457,0.0450,50
+bail,GAT+FAME,GIN,Statistical Parity Difference,0.0033,0.0258,-0.0035,0.0100,50
+bail,GAT+FAME,GIN,Equal Opportunity Difference,0.0067,0.0195,0.0014,0.0124,50
+bail,GAT+FAME,GIN,Overall Accuracy Equality Difference,0.0018,0.0222,-0.0044,0.0075,50
+bail,GAT+FAME,GIN,Treatment Equality Difference,-3.1209,6.3898,-4.9069,-1.6258,50
+bail,GAT+FAME,GIN+PFR,Accuracy,-0.0833,0.2442,-0.2298,0.0572,10
+bail,GAT+FAME,GIN+PFR,Statistical Parity Difference,0.0036,0.0389,-0.0192,0.0275,10
+bail,GAT+FAME,GIN+PFR,Equal Opportunity Difference,0.0076,0.0191,-0.0037,0.0194,10
+bail,GAT+FAME,GIN+PFR,Overall Accuracy Equality Difference,-0.0022,0.0312,-0.0205,0.0158,10
+bail,GAT+FAME,GIN+PFR,Treatment Equality Difference,-0.9184,0.9915,-1.5399,-0.3763,10
+bail,GAT+FAME+PFR,GAT+PFR,Accuracy,-0.3370,0.1408,-0.4200,-0.2627,11
+bail,GAT+FAME+PFR,GAT+PFR,Statistical Parity Difference,-0.0522,0.0269,-0.0657,-0.0361,11
+bail,GAT+FAME+PFR,GAT+PFR,Equal Opportunity Difference,-0.0165,0.0107,-0.0226,-0.0106,11
+bail,GAT+FAME+PFR,GAT+PFR,Overall Accuracy Equality Difference,0.0442,0.0230,0.0303,0.0558,11
+bail,GAT+FAME+PFR,GAT+PFR,Treatment Equality Difference,-0.6570,0.8879,-1.2055,-0.2426,11
+bail,GAT+FAME+PFR,GCN,Accuracy,-0.2094,0.1086,-0.2636,-0.1386,10
+bail,GAT+FAME+PFR,GCN,Statistical Parity Difference,-0.0428,0.0280,-0.0574,-0.0245,10
+bail,GAT+FAME+PFR,GCN,Equal Opportunity Difference,-0.0067,0.0156,-0.0153,0.0028,10
+bail,GAT+FAME+PFR,GCN,Overall Accuracy Equality Difference,0.0383,0.0232,0.0238,0.0506,10
+bail,GAT+FAME+PFR,GCN,Treatment Equality Difference,36.9784,58.8385,11.5289,74.7601,10
+bail,GAT+FAME+PFR,GCN+FAME,Accuracy,-0.2428,0.0990,-0.2909,-0.1766,10
+bail,GAT+FAME+PFR,GCN+FAME,Statistical Parity Difference,-0.0511,0.0205,-0.0607,-0.0381,10
+bail,GAT+FAME+PFR,GCN+FAME,Equal Opportunity Difference,-0.0116,0.0085,-0.0170,-0.0070,10
+bail,GAT+FAME+PFR,GCN+FAME,Overall Accuracy Equality Difference,0.0474,0.0187,0.0346,0.0568,10
+bail,GAT+FAME+PFR,GCN+FAME,Treatment Equality Difference,126.4906,87.5915,76.6768,176.5413,10
+bail,GAT+FAME+PFR,GCN+FAME+PFR,Accuracy,-0.2766,0.1659,-0.3680,-0.1832,11
+bail,GAT+FAME+PFR,GCN+FAME+PFR,Statistical Parity Difference,-0.0369,0.0306,-0.0537,-0.0194,11
+bail,GAT+FAME+PFR,GCN+FAME+PFR,Equal Opportunity Difference,0.0011,0.0288,-0.0134,0.0189,11
+bail,GAT+FAME+PFR,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0396,0.0283,0.0241,0.0547,11
+bail,GAT+FAME+PFR,GCN+FAME+PFR,Treatment Equality Difference,8.6486,21.8192,0.1609,22.0379,11
+bail,GAT+FAME+PFR,GCN+PFR,Accuracy,-0.1821,0.1413,-0.2537,-0.0959,11
+bail,GAT+FAME+PFR,GCN+PFR,Statistical Parity Difference,-0.0370,0.0352,-0.0551,-0.0154,11
+bail,GAT+FAME+PFR,GCN+PFR,Equal Opportunity Difference,-0.0035,0.0150,-0.0117,0.0052,11
+bail,GAT+FAME+PFR,GCN+PFR,Overall Accuracy Equality Difference,0.0301,0.0309,0.0124,0.0472,11
+bail,GAT+FAME+PFR,GCN+PFR,Treatment Equality Difference,33.4856,57.1373,8.9299,69.8552,11
+bail,GAT+FAME+PFR,GIN,Accuracy,-0.1411,0.2297,-0.2801,-0.0127,10
+bail,GAT+FAME+PFR,GIN,Statistical Parity Difference,-0.0137,0.0327,-0.0322,0.0075,10
+bail,GAT+FAME+PFR,GIN,Equal Opportunity Difference,0.0016,0.0178,-0.0086,0.0121,10
+bail,GAT+FAME+PFR,GIN,Overall Accuracy Equality Difference,0.0135,0.0262,-0.0031,0.0277,10
+bail,GAT+FAME+PFR,GIN,Treatment Equality Difference,-0.7033,0.9118,-1.2711,-0.2760,10
+bail,GAT+FAME+PFR,GIN+PFR,Accuracy,-0.1062,0.2107,-0.2266,0.0087,11
+bail,GAT+FAME+PFR,GIN+PFR,Statistical Parity Difference,-0.0034,0.0317,-0.0207,0.0161,11
+bail,GAT+FAME+PFR,GIN+PFR,Equal Opportunity Difference,0.0025,0.0160,-0.0066,0.0112,11
+bail,GAT+FAME+PFR,GIN+PFR,Overall Accuracy Equality Difference,0.0033,0.0266,-0.0118,0.0178,11
+bail,GAT+FAME+PFR,GIN+PFR,Treatment Equality Difference,-0.6295,0.8975,-1.2211,-0.2091,11
+bail,GAT+PFR,GCN,Accuracy,0.1371,0.1185,0.0705,0.2028,10
+bail,GAT+PFR,GCN,Statistical Parity Difference,0.0146,0.0154,0.0067,0.0243,10
+bail,GAT+PFR,GCN,Equal Opportunity Difference,0.0115,0.0121,0.0048,0.0191,10
+bail,GAT+PFR,GCN,Overall Accuracy Equality Difference,-0.0103,0.0181,-0.0220,-0.0019,10
+bail,GAT+PFR,GCN,Treatment Equality Difference,37.7011,58.9085,11.4360,76.6715,10
+bail,GAT+PFR,GCN+FAME,Accuracy,0.1038,0.1211,0.0327,0.1747,10
+bail,GAT+PFR,GCN+FAME,Statistical Parity Difference,0.0063,0.0026,0.0048,0.0078,10
+bail,GAT+PFR,GCN+FAME,Equal Opportunity Difference,0.0066,0.0036,0.0043,0.0086,10
+bail,GAT+PFR,GCN+FAME,Overall Accuracy Equality Difference,-0.0013,0.0027,-0.0028,0.0003,10
+bail,GAT+PFR,GCN+FAME,Treatment Equality Difference,127.2133,87.3037,79.2244,180.6815,10
+bail,GAT+PFR,GCN+FAME+PFR,Accuracy,0.0604,0.1939,-0.0540,0.1710,11
+bail,GAT+PFR,GCN+FAME+PFR,Statistical Parity Difference,0.0153,0.0236,0.0038,0.0304,11
+bail,GAT+PFR,GCN+FAME+PFR,Equal Opportunity Difference,0.0176,0.0314,0.0027,0.0382,11
+bail,GAT+PFR,GCN+FAME+PFR,Overall Accuracy Equality Difference,-0.0046,0.0212,-0.0179,0.0048,11
+bail,GAT+PFR,GCN+FAME+PFR,Treatment Equality Difference,9.3056,21.6391,0.7403,23.4745,11
+bail,GAT+PFR,GCN+PFR,Accuracy,0.1549,0.1313,0.0805,0.2273,11
+bail,GAT+PFR,GCN+PFR,Statistical Parity Difference,0.0152,0.0134,0.0079,0.0224,11
+bail,GAT+PFR,GCN+PFR,Equal Opportunity Difference,0.0130,0.0103,0.0074,0.0190,11
+bail,GAT+PFR,GCN+PFR,Overall Accuracy Equality Difference,-0.0141,0.0214,-0.0265,-0.0033,11
+bail,GAT+PFR,GCN+PFR,Treatment Equality Difference,34.1426,57.2497,9.7485,69.3498,11
+bail,GAT+PFR,GIN,Accuracy,0.2055,0.2401,0.0689,0.3455,10
+bail,GAT+PFR,GIN,Statistical Parity Difference,0.0438,0.0181,0.0333,0.0542,10
+bail,GAT+PFR,GIN,Equal Opportunity Difference,0.0198,0.0100,0.0142,0.0258,10
+bail,GAT+PFR,GIN,Overall Accuracy Equality Difference,-0.0351,0.0147,-0.0434,-0.0256,10
+bail,GAT+PFR,GIN,Treatment Equality Difference,0.0194,0.0282,0.0054,0.0384,10
+bail,GAT+PFR,GIN+PFR,Accuracy,0.2308,0.1922,0.1278,0.3430,11
+bail,GAT+PFR,GIN+PFR,Statistical Parity Difference,0.0488,0.0221,0.0353,0.0600,11
+bail,GAT+PFR,GIN+PFR,Equal Opportunity Difference,0.0190,0.0126,0.0122,0.0262,11
+bail,GAT+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0409,0.0188,-0.0505,-0.0296,11
+bail,GAT+PFR,GIN+PFR,Treatment Equality Difference,0.0275,0.0262,0.0136,0.0421,11
+bail,GCN,GCN+FAME,Accuracy,-0.0451,0.0660,-0.0626,-0.0251,50
+bail,GCN,GCN+FAME,Statistical Parity Difference,-0.0132,0.0214,-0.0193,-0.0079,50
+bail,GCN,GCN+FAME,Equal Opportunity Difference,-0.0079,0.0130,-0.0116,-0.0043,50
+bail,GCN,GCN+FAME,Overall Accuracy Equality Difference,0.0111,0.0150,0.0070,0.0154,50
+bail,GCN,GCN+FAME,Treatment Equality Difference,85.2202,99.3992,57.9758,111.4225,50
+bail,GCN,GCN+FAME+PFR,Accuracy,-0.0949,0.1102,-0.1640,-0.0350,10
+bail,GCN,GCN+FAME+PFR,Statistical Parity Difference,0.0022,0.0321,-0.0160,0.0215,10
+bail,GCN,GCN+FAME+PFR,Equal Opportunity Difference,0.0080,0.0396,-0.0131,0.0346,10
+bail,GCN,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0053,0.0312,-0.0130,0.0231,10
+bail,GCN,GCN+FAME+PFR,Treatment Equality Difference,-27.4649,68.0889,-73.6677,6.3381,10
+bail,GCN,GCN+PFR,Accuracy,-0.0020,0.0049,-0.0055,0.0002,10
+bail,GCN,GCN+PFR,Statistical Parity Difference,-0.0016,0.0069,-0.0060,0.0018,10
+bail,GCN,GCN+PFR,Equal Opportunity Difference,0.0004,0.0053,-0.0026,0.0035,10
+bail,GCN,GCN+PFR,Overall Accuracy Equality Difference,-0.0025,0.0071,-0.0073,0.0006,10
+bail,GCN,GCN+PFR,Treatment Equality Difference,-0.2281,2.1883,-1.6724,0.9038,10
+bail,GCN,GIN,Accuracy,0.1708,0.1258,0.1341,0.2024,50
+bail,GCN,GIN,Statistical Parity Difference,0.0358,0.0238,0.0288,0.0421,50
+bail,GCN,GIN,Equal Opportunity Difference,0.0153,0.0186,0.0101,0.0204,50
+bail,GCN,GIN,Overall Accuracy Equality Difference,-0.0313,0.0178,-0.0360,-0.0264,50
+bail,GCN,GIN,Treatment Equality Difference,-26.7398,57.5074,-43.2797,-13.0333,50
+bail,GCN,GIN+PFR,Accuracy,0.1041,0.1598,0.0055,0.1883,10
+bail,GCN,GIN+PFR,Statistical Parity Difference,0.0383,0.0212,0.0242,0.0500,10
+bail,GCN,GIN+PFR,Equal Opportunity Difference,0.0091,0.0168,-0.0012,0.0188,10
+bail,GCN,GIN+PFR,Overall Accuracy Equality Difference,-0.0340,0.0232,-0.0467,-0.0202,10
+bail,GCN,GIN+PFR,Treatment Equality Difference,-37.6709,58.9139,-75.9518,-12.0027,10
+bail,GCN+FAME,GCN+FAME+PFR,Accuracy,-0.0615,0.1076,-0.1361,-0.0086,10
+bail,GCN+FAME,GCN+FAME+PFR,Statistical Parity Difference,0.0104,0.0232,-0.0015,0.0259,10
+bail,GCN+FAME,GCN+FAME+PFR,Equal Opportunity Difference,0.0128,0.0312,-0.0030,0.0336,10
+bail,GCN+FAME,GCN+FAME+PFR,Overall Accuracy Equality Difference,-0.0038,0.0219,-0.0182,0.0066,10
+bail,GCN+FAME,GCN+FAME+PFR,Treatment Equality Difference,-116.9772,80.7436,-166.8709,-73.6490,10
+bail,GCN+FAME,GCN+PFR,Accuracy,0.0314,0.0411,0.0096,0.0594,10
+bail,GCN+FAME,GCN+PFR,Statistical Parity Difference,0.0067,0.0124,-0.0001,0.0143,10
+bail,GCN+FAME,GCN+PFR,Equal Opportunity Difference,0.0052,0.0102,-0.0005,0.0113,10
+bail,GCN+FAME,GCN+PFR,Overall Accuracy Equality Difference,-0.0116,0.0216,-0.0258,-0.0007,10
+bail,GCN+FAME,GCN+PFR,Treatment Equality Difference,-89.7403,124.8138,-158.6147,-9.6126,10
+bail,GCN+FAME,GIN,Accuracy,0.2159,0.1103,0.1809,0.2438,50
+bail,GCN+FAME,GIN,Statistical Parity Difference,0.0489,0.0156,0.0446,0.0532,50
+bail,GCN+FAME,GIN,Equal Opportunity Difference,0.0231,0.0146,0.0193,0.0273,50
+bail,GCN+FAME,GIN,Overall Accuracy Equality Difference,-0.0424,0.0121,-0.0457,-0.0391,50
+bail,GCN+FAME,GIN,Treatment Equality Difference,-111.9600,81.1315,-135.3723,-89.1969,50
+bail,GCN+FAME,GIN+PFR,Accuracy,0.1374,0.1620,0.0410,0.2251,10
+bail,GCN+FAME,GIN+PFR,Statistical Parity Difference,0.0465,0.0190,0.0340,0.0565,10
+bail,GCN+FAME,GIN+PFR,Equal Opportunity Difference,0.0139,0.0127,0.0064,0.0213,10
+bail,GCN+FAME,GIN+PFR,Overall Accuracy Equality Difference,-0.0431,0.0161,-0.0510,-0.0328,10
+bail,GCN+FAME,GIN+PFR,Treatment Equality Difference,-127.1831,87.3073,-181.5611,-81.0403,10
+bail,GCN+FAME+PFR,GCN+PFR,Accuracy,0.0945,0.1014,0.0419,0.1583,11
+bail,GCN+FAME+PFR,GCN+PFR,Statistical Parity Difference,-0.0000,0.0303,-0.0178,0.0158,11
+bail,GCN+FAME+PFR,GCN+PFR,Equal Opportunity Difference,-0.0046,0.0361,-0.0256,0.0130,11
+bail,GCN+FAME+PFR,GCN+PFR,Overall Accuracy Equality Difference,-0.0095,0.0325,-0.0263,0.0078,11
+bail,GCN+FAME+PFR,GCN+PFR,Treatment Equality Difference,24.8370,65.1065,-6.7896,66.8776,11
+bail,GCN+FAME+PFR,GIN,Accuracy,0.1632,0.1675,0.0574,0.2541,10
+bail,GCN+FAME+PFR,GIN,Statistical Parity Difference,0.0270,0.0324,0.0080,0.0461,10
+bail,GCN+FAME+PFR,GIN,Equal Opportunity Difference,0.0003,0.0382,-0.0246,0.0205,10
+bail,GCN+FAME+PFR,GIN,Overall Accuracy Equality Difference,-0.0300,0.0270,-0.0453,-0.0136,10
+bail,GCN+FAME+PFR,GIN,Treatment Equality Difference,-10.2167,22.5821,-25.8449,-1.3210,10
+bail,GCN+FAME+PFR,GIN+PFR,Accuracy,0.1704,0.1979,0.0511,0.2763,11
+bail,GCN+FAME+PFR,GIN+PFR,Statistical Parity Difference,0.0336,0.0291,0.0164,0.0487,11
+bail,GCN+FAME+PFR,GIN+PFR,Equal Opportunity Difference,0.0014,0.0314,-0.0166,0.0170,11
+bail,GCN+FAME+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0363,0.0295,-0.0515,-0.0173,11
+bail,GCN+FAME+PFR,GIN+PFR,Treatment Equality Difference,-9.2781,21.6298,-22.4623,-0.4820,11
+bail,GCN+PFR,GIN,Accuracy,0.0703,0.1874,-0.0395,0.1785,10
+bail,GCN+PFR,GIN,Statistical Parity Difference,0.0307,0.0193,0.0205,0.0426,10
+bail,GCN+PFR,GIN,Equal Opportunity Difference,0.0079,0.0135,0.0000,0.0159,10
+bail,GCN+PFR,GIN,Overall Accuracy Equality Difference,-0.0223,0.0302,-0.0392,-0.0040,10
+bail,GCN+PFR,GIN,Treatment Equality Difference,-37.4536,59.1913,-76.6716,-10.9164,10
+bail,GCN+PFR,GIN+PFR,Accuracy,0.0759,0.1796,-0.0282,0.1684,11
+bail,GCN+PFR,GIN+PFR,Statistical Parity Difference,0.0336,0.0269,0.0184,0.0469,11
+bail,GCN+PFR,GIN+PFR,Equal Opportunity Difference,0.0060,0.0176,-0.0039,0.0159,11
+bail,GCN+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0268,0.0297,-0.0429,-0.0087,11
+bail,GCN+PFR,GIN+PFR,Treatment Equality Difference,-34.1151,57.2528,-72.4299,-9.5374,11
+bail,GIN,GIN+PFR,Accuracy,0.0357,0.1460,-0.0418,0.1295,10
+bail,GIN,GIN+PFR,Statistical Parity Difference,0.0091,0.0146,0.0002,0.0168,10
+bail,GIN,GIN+PFR,Equal Opportunity Difference,0.0008,0.0130,-0.0066,0.0087,10
+bail,GIN,GIN+PFR,Overall Accuracy Equality Difference,-0.0093,0.0098,-0.0146,-0.0031,10
+bail,GIN,GIN+PFR,Treatment Equality Difference,0.0108,0.0436,-0.0156,0.0351,10
+credit,GAT,GAT+FAME,Accuracy,0.1532,0.2251,0.0914,0.2174,50
+credit,GAT,GAT+FAME,Statistical Parity Difference,-0.0121,0.0487,-0.0255,0.0003,50
+credit,GAT,GAT+FAME,Equal Opportunity Difference,-0.0156,0.0542,-0.0309,-0.0007,50
+credit,GAT,GAT+FAME,Overall Accuracy Equality Difference,0.0104,0.0257,0.0036,0.0178,50
+credit,GAT,GAT+FAME,Treatment Equality Difference,-1.2856,3.6289,-2.3995,-0.4379,50
+credit,GAT,GAT+FAME+PFR,Accuracy,0.1902,0.2106,0.0742,0.3197,10
+credit,GAT,GAT+FAME+PFR,Statistical Parity Difference,-0.0257,0.0544,-0.0609,0.0022,10
+credit,GAT,GAT+FAME+PFR,Equal Opportunity Difference,-0.0328,0.0596,-0.0728,-0.0027,10
+credit,GAT,GAT+FAME+PFR,Overall Accuracy Equality Difference,0.0278,0.0364,0.0075,0.0495,10
+credit,GAT,GAT+FAME+PFR,Treatment Equality Difference,-2.7364,5.5953,-6.5618,-0.4391,10
+credit,GAT,GAT+PFR,Accuracy,0.0121,0.2255,-0.1177,0.1434,10
+credit,GAT,GAT+PFR,Statistical Parity Difference,0.0194,0.0743,-0.0222,0.0639,10
+credit,GAT,GAT+PFR,Equal Opportunity Difference,0.0196,0.0853,-0.0279,0.0708,10
+credit,GAT,GAT+PFR,Overall Accuracy Equality Difference,0.0058,0.0331,-0.0140,0.0233,10
+credit,GAT,GAT+PFR,Treatment Equality Difference,14.6055,46.6653,-0.9186,44.4945,10
+credit,GAT,GCN,Accuracy,0.1379,0.2392,0.0727,0.2071,50
+credit,GAT,GCN,Statistical Parity Difference,0.0048,0.0723,-0.0131,0.0264,50
+credit,GAT,GCN,Equal Opportunity Difference,-0.0000,0.0685,-0.0176,0.0203,50
+credit,GAT,GCN,Overall Accuracy Equality Difference,0.0013,0.0300,-0.0068,0.0097,50
+credit,GAT,GCN,Treatment Equality Difference,-1.0733,3.8268,-2.2736,-0.0952,50
+credit,GAT,GCN+FAME,Accuracy,0.1624,0.2309,0.0987,0.2266,50
+credit,GAT,GCN+FAME,Statistical Parity Difference,-0.0087,0.0436,-0.0210,0.0025,50
+credit,GAT,GCN+FAME,Equal Opportunity Difference,-0.0086,0.0518,-0.0229,0.0049,50
+credit,GAT,GCN+FAME,Overall Accuracy Equality Difference,0.0206,0.0275,0.0132,0.0289,50
+credit,GAT,GCN+FAME,Treatment Equality Difference,-1.2957,3.6355,-2.3708,-0.4319,50
+credit,GAT,GCN+FAME+PFR,Accuracy,0.1986,0.2202,0.0786,0.3269,10
+credit,GAT,GCN+FAME+PFR,Statistical Parity Difference,-0.0288,0.0518,-0.0642,-0.0040,10
+credit,GAT,GCN+FAME+PFR,Equal Opportunity Difference,-0.0342,0.0581,-0.0716,-0.0056,10
+credit,GAT,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0350,0.0407,0.0120,0.0588,10
+credit,GAT,GCN+FAME+PFR,Treatment Equality Difference,-2.7635,5.6706,-6.4520,-0.4250,10
+credit,GAT,GCN+PFR,Accuracy,0.1868,0.2189,0.0625,0.3216,10
+credit,GAT,GCN+PFR,Statistical Parity Difference,-0.0232,0.0438,-0.0524,-0.0001,10
+credit,GAT,GCN+PFR,Equal Opportunity Difference,-0.0310,0.0484,-0.0622,-0.0043,10
+credit,GAT,GCN+PFR,Overall Accuracy Equality Difference,0.0237,0.0361,0.0039,0.0454,10
+credit,GAT,GCN+PFR,Treatment Equality Difference,-2.7279,5.6822,-6.5829,-0.4132,10
+credit,GAT,GIN,Accuracy,0.1569,0.2286,0.0928,0.2252,49
+credit,GAT,GIN,Statistical Parity Difference,-0.0200,0.0393,-0.0321,-0.0102,49
+credit,GAT,GIN,Equal Opportunity Difference,-0.0225,0.0448,-0.0351,-0.0109,49
+credit,GAT,GIN,Overall Accuracy Equality Difference,0.0109,0.0212,0.0057,0.0172,49
+credit,GAT,GIN,Treatment Equality Difference,-1.2816,3.6573,-2.3416,-0.3801,49
+credit,GAT,GIN+PFR,Accuracy,0.1989,0.2203,0.0687,0.3308,10
+credit,GAT,GIN+PFR,Statistical Parity Difference,-0.0336,0.0500,-0.0674,-0.0098,10
+credit,GAT,GIN+PFR,Equal Opportunity Difference,-0.0398,0.0559,-0.0769,-0.0120,10
+credit,GAT,GIN+PFR,Overall Accuracy Equality Difference,0.0321,0.0362,0.0117,0.0541,10
+credit,GAT,GIN+PFR,Treatment Equality Difference,-2.7762,5.6688,-6.5999,-0.4008,10
+credit,GAT+FAME,GAT+FAME+PFR,Accuracy,-0.0010,0.0046,-0.0040,0.0012,10
+credit,GAT+FAME,GAT+FAME+PFR,Statistical Parity Difference,0.0027,0.0074,-0.0014,0.0076,10
+credit,GAT+FAME,GAT+FAME+PFR,Equal Opportunity Difference,0.0038,0.0098,-0.0014,0.0099,10
+credit,GAT+FAME,GAT+FAME+PFR,Overall Accuracy Equality Difference,-0.0024,0.0079,-0.0076,0.0018,10
+credit,GAT+FAME,GAT+FAME+PFR,Treatment Equality Difference,0.0078,0.0296,-0.0082,0.0262,10
+credit,GAT+FAME,GAT+PFR,Accuracy,-0.1791,0.1953,-0.2956,-0.0713,10
+credit,GAT+FAME,GAT+PFR,Statistical Parity Difference,0.0478,0.0583,0.0150,0.0834,10
+credit,GAT+FAME,GAT+PFR,Equal Opportunity Difference,0.0562,0.0629,0.0216,0.0923,10
+credit,GAT+FAME,GAT+PFR,Overall Accuracy Equality Difference,-0.0244,0.0316,-0.0422,-0.0066,10
+credit,GAT+FAME,GAT+PFR,Treatment Equality Difference,17.3497,52.1036,0.3667,50.4525,10
+credit,GAT+FAME,GCN,Accuracy,-0.0154,0.0684,-0.0337,0.0020,50
+credit,GAT+FAME,GCN,Statistical Parity Difference,0.0169,0.0657,0.0014,0.0360,50
+credit,GAT+FAME,GCN,Equal Opportunity Difference,0.0156,0.0589,0.0006,0.0328,50
+credit,GAT+FAME,GCN,Overall Accuracy Equality Difference,-0.0091,0.0198,-0.0148,-0.0041,50
+credit,GAT+FAME,GCN,Treatment Equality Difference,0.2124,0.9220,0.0190,0.5135,50
+credit,GAT+FAME,GCN+FAME,Accuracy,0.0092,0.0327,0.0017,0.0188,50
+credit,GAT+FAME,GCN+FAME,Statistical Parity Difference,0.0033,0.0276,-0.0049,0.0103,50
+credit,GAT+FAME,GCN+FAME,Equal Opportunity Difference,0.0069,0.0322,-0.0035,0.0149,50
+credit,GAT+FAME,GCN+FAME,Overall Accuracy Equality Difference,0.0103,0.0170,0.0058,0.0149,50
+credit,GAT+FAME,GCN+FAME,Treatment Equality Difference,-0.0101,0.1531,-0.0600,0.0221,50
+credit,GAT+FAME,GCN+FAME+PFR,Accuracy,0.0073,0.0181,0.0006,0.0192,10
+credit,GAT+FAME,GCN+FAME+PFR,Statistical Parity Difference,-0.0004,0.0138,-0.0088,0.0074,10
+credit,GAT+FAME,GCN+FAME+PFR,Equal Opportunity Difference,0.0024,0.0128,-0.0039,0.0112,10
+credit,GAT+FAME,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0048,0.0072,0.0015,0.0093,10
+credit,GAT+FAME,GCN+FAME+PFR,Treatment Equality Difference,-0.0193,0.0766,-0.0691,0.0161,10
+credit,GAT+FAME,GCN+PFR,Accuracy,-0.0044,0.0313,-0.0228,0.0144,10
+credit,GAT+FAME,GCN+PFR,Statistical Parity Difference,0.0052,0.0147,-0.0030,0.0147,10
+credit,GAT+FAME,GCN+PFR,Equal Opportunity Difference,0.0056,0.0125,-0.0005,0.0138,10
+credit,GAT+FAME,GCN+PFR,Overall Accuracy Equality Difference,-0.0065,0.0118,-0.0142,-0.0007,10
+credit,GAT+FAME,GCN+PFR,Treatment Equality Difference,0.0163,0.1139,-0.0501,0.0809,10
+credit,GAT+FAME,GIN,Accuracy,0.0102,0.0332,0.0027,0.0210,49
+credit,GAT+FAME,GIN,Statistical Parity Difference,-0.0087,0.0245,-0.0169,-0.0030,49
+credit,GAT+FAME,GIN,Equal Opportunity Difference,-0.0080,0.0251,-0.0169,-0.0028,49
+credit,GAT+FAME,GIN,Overall Accuracy Equality Difference,0.0021,0.0094,-0.0007,0.0045,49
+credit,GAT+FAME,GIN,Treatment Equality Difference,-0.0439,0.1603,-0.0957,-0.0129,49
+credit,GAT+FAME,GIN+PFR,Accuracy,0.0077,0.0180,0.0010,0.0195,10
+credit,GAT+FAME,GIN+PFR,Statistical Parity Difference,-0.0052,0.0094,-0.0114,-0.0012,10
+credit,GAT+FAME,GIN+PFR,Equal Opportunity Difference,-0.0032,0.0037,-0.0056,-0.0013,10
+credit,GAT+FAME,GIN+PFR,Overall Accuracy Equality Difference,0.0019,0.0023,0.0007,0.0035,10
+credit,GAT+FAME,GIN+PFR,Treatment Equality Difference,-0.0321,0.0694,-0.0775,-0.0049,10
+credit,GAT+FAME+PFR,GAT+PFR,Accuracy,-0.1619,0.1917,-0.2820,-0.0548,11
+credit,GAT+FAME+PFR,GAT+PFR,Statistical Parity Difference,0.0410,0.0538,0.0122,0.0728,11
+credit,GAT+FAME+PFR,GAT+PFR,Equal Opportunity Difference,0.0476,0.0598,0.0154,0.0818,11
+credit,GAT+FAME+PFR,GAT+PFR,Overall Accuracy Equality Difference,-0.0200,0.0316,-0.0371,-0.0021,11
+credit,GAT+FAME+PFR,GAT+PFR,Treatment Equality Difference,15.7653,49.7002,0.3317,45.9927,11
+credit,GAT+FAME+PFR,GCN,Accuracy,-0.0036,0.0324,-0.0230,0.0158,10
+credit,GAT+FAME+PFR,GCN,Statistical Parity Difference,0.0026,0.0198,-0.0093,0.0142,10
+credit,GAT+FAME+PFR,GCN,Equal Opportunity Difference,0.0020,0.0191,-0.0086,0.0128,10
+credit,GAT+FAME+PFR,GCN,Overall Accuracy Equality Difference,-0.0043,0.0157,-0.0137,0.0047,10
+credit,GAT+FAME+PFR,GCN,Treatment Equality Difference,0.0093,0.1278,-0.0626,0.0856,10
+credit,GAT+FAME+PFR,GCN+FAME,Accuracy,0.0078,0.0182,0.0003,0.0201,10
+credit,GAT+FAME+PFR,GCN+FAME,Statistical Parity Difference,0.0038,0.0138,-0.0046,0.0118,10
+credit,GAT+FAME+PFR,GCN+FAME,Equal Opportunity Difference,0.0080,0.0155,-0.0004,0.0180,10
+credit,GAT+FAME+PFR,GCN+FAME,Overall Accuracy Equality Difference,0.0130,0.0161,0.0044,0.0235,10
+credit,GAT+FAME+PFR,GCN+FAME,Treatment Equality Difference,-0.0069,0.0743,-0.0546,0.0280,10
+credit,GAT+FAME+PFR,GCN+FAME+PFR,Accuracy,0.0075,0.0176,0.0004,0.0189,11
+credit,GAT+FAME+PFR,GCN+FAME+PFR,Statistical Parity Difference,-0.0015,0.0148,-0.0110,0.0054,11
+credit,GAT+FAME+PFR,GCN+FAME+PFR,Equal Opportunity Difference,0.0002,0.0139,-0.0083,0.0074,11
+credit,GAT+FAME+PFR,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0072,0.0114,0.0016,0.0138,11
+credit,GAT+FAME+PFR,GCN+FAME+PFR,Treatment Equality Difference,-0.0214,0.0780,-0.0704,0.0100,11
+credit,GAT+FAME+PFR,GCN+PFR,Accuracy,-0.0033,0.0306,-0.0214,0.0138,11
+credit,GAT+FAME+PFR,GCN+PFR,Statistical Parity Difference,0.0026,0.0188,-0.0081,0.0130,11
+credit,GAT+FAME+PFR,GCN+PFR,Equal Opportunity Difference,0.0025,0.0182,-0.0082,0.0130,11
+credit,GAT+FAME+PFR,GCN+PFR,Overall Accuracy Equality Difference,-0.0033,0.0149,-0.0124,0.0043,11
+credit,GAT+FAME+PFR,GCN+PFR,Treatment Equality Difference,0.0077,0.1208,-0.0578,0.0762,11
+credit,GAT+FAME+PFR,GIN,Accuracy,0.0085,0.0185,0.0005,0.0215,10
+credit,GAT+FAME+PFR,GIN,Statistical Parity Difference,-0.0077,0.0144,-0.0169,-0.0005,10
+credit,GAT+FAME+PFR,GIN,Equal Opportunity Difference,-0.0067,0.0117,-0.0144,-0.0010,10
+credit,GAT+FAME+PFR,GIN,Overall Accuracy Equality Difference,0.0041,0.0080,0.0003,0.0095,10
+credit,GAT+FAME+PFR,GIN,Treatment Equality Difference,-0.0387,0.0810,-0.0924,-0.0001,10
+credit,GAT+FAME+PFR,GIN+PFR,Accuracy,0.0079,0.0177,0.0007,0.0191,11
+credit,GAT+FAME+PFR,GIN+PFR,Statistical Parity Difference,-0.0072,0.0137,-0.0159,-0.0006,11
+credit,GAT+FAME+PFR,GIN+PFR,Equal Opportunity Difference,-0.0064,0.0112,-0.0130,-0.0012,11
+credit,GAT+FAME+PFR,GIN+PFR,Overall Accuracy Equality Difference,0.0039,0.0077,0.0003,0.0087,11
+credit,GAT+FAME+PFR,GIN+PFR,Treatment Equality Difference,-0.0363,0.0772,-0.0875,-0.0033,11
+credit,GAT+PFR,GCN,Accuracy,0.1745,0.2080,0.0630,0.2919,10
+credit,GAT+PFR,GCN,Statistical Parity Difference,-0.0425,0.0595,-0.0811,-0.0106,10
+credit,GAT+PFR,GCN,Equal Opportunity Difference,-0.0503,0.0654,-0.0925,-0.0152,10
+credit,GAT+PFR,GCN,Overall Accuracy Equality Difference,0.0177,0.0282,0.0025,0.0349,10
+credit,GAT+PFR,GCN,Treatment Equality Difference,-17.3325,52.1853,-50.5290,-0.3223,10
+credit,GAT+PFR,GCN+FAME,Accuracy,0.1859,0.2060,0.0736,0.3076,10
+credit,GAT+PFR,GCN+FAME,Statistical Parity Difference,-0.0413,0.0471,-0.0700,-0.0140,10
+credit,GAT+PFR,GCN+FAME,Equal Opportunity Difference,-0.0444,0.0528,-0.0774,-0.0156,10
+credit,GAT+PFR,GCN+FAME,Overall Accuracy Equality Difference,0.0351,0.0332,0.0164,0.0545,10
+credit,GAT+PFR,GCN+FAME,Treatment Equality Difference,-17.3488,52.1675,-50.5456,-0.3455,10
+credit,GAT+PFR,GCN+FAME+PFR,Accuracy,0.1695,0.2034,0.0569,0.2889,11
+credit,GAT+PFR,GCN+FAME+PFR,Statistical Parity Difference,-0.0425,0.0506,-0.0713,-0.0149,11
+credit,GAT+PFR,GCN+FAME+PFR,Equal Opportunity Difference,-0.0474,0.0560,-0.0783,-0.0161,11
+credit,GAT+PFR,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0272,0.0331,0.0089,0.0456,11
+credit,GAT+PFR,GCN+FAME+PFR,Treatment Equality Difference,-15.7867,49.7756,-45.9039,-0.3118,11
+credit,GAT+PFR,GCN+PFR,Accuracy,0.1586,0.2044,0.0519,0.2733,11
+credit,GAT+PFR,GCN+PFR,Statistical Parity Difference,-0.0383,0.0585,-0.0713,-0.0073,11
+credit,GAT+PFR,GCN+PFR,Equal Opportunity Difference,-0.0452,0.0647,-0.0839,-0.0101,11
+credit,GAT+PFR,GCN+PFR,Overall Accuracy Equality Difference,0.0167,0.0272,0.0016,0.0320,11
+credit,GAT+PFR,GCN+PFR,Treatment Equality Difference,-15.7576,49.7821,-46.0284,-0.2918,11
+credit,GAT+PFR,GIN,Accuracy,0.1791,0.2121,0.0630,0.3119,10
+credit,GAT+PFR,GIN,Statistical Parity Difference,-0.0507,0.0578,-0.0880,-0.0198,10
+credit,GAT+PFR,GIN,Equal Opportunity Difference,-0.0571,0.0645,-0.0958,-0.0221,10
+credit,GAT+PFR,GIN,Overall Accuracy Equality Difference,0.0232,0.0320,0.0048,0.0420,10
+credit,GAT+PFR,GIN,Treatment Equality Difference,-17.3580,52.1807,-50.5297,-0.3224,10
+credit,GAT+PFR,GIN+PFR,Accuracy,0.1698,0.2036,0.0609,0.2880,11
+credit,GAT+PFR,GIN+PFR,Statistical Parity Difference,-0.0482,0.0554,-0.0827,-0.0201,11
+credit,GAT+PFR,GIN+PFR,Equal Opportunity Difference,-0.0540,0.0621,-0.0907,-0.0205,11
+credit,GAT+PFR,GIN+PFR,Overall Accuracy Equality Difference,0.0239,0.0304,0.0073,0.0413,11
+credit,GAT+PFR,GIN+PFR,Treatment Equality Difference,-15.8016,49.7714,-46.0237,-0.3337,11
+credit,GCN,GCN+FAME,Accuracy,0.0246,0.0577,0.0101,0.0422,50
+credit,GCN,GCN+FAME,Statistical Parity Difference,-0.0136,0.0594,-0.0315,0.0010,50
+credit,GCN,GCN+FAME,Equal Opportunity Difference,-0.0086,0.0524,-0.0241,0.0049,50
+credit,GCN,GCN+FAME,Overall Accuracy Equality Difference,0.0193,0.0243,0.0134,0.0262,50
+credit,GCN,GCN+FAME,Treatment Equality Difference,-0.2224,0.8896,-0.4930,-0.0397,50
+credit,GCN,GCN+FAME+PFR,Accuracy,0.0119,0.0220,0.0018,0.0260,10
+credit,GCN,GCN+FAME+PFR,Statistical Parity Difference,-0.0058,0.0162,-0.0155,0.0039,10
+credit,GCN,GCN+FAME+PFR,Equal Opportunity Difference,-0.0034,0.0184,-0.0143,0.0075,10
+credit,GCN,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0115,0.0132,0.0041,0.0194,10
+credit,GCN,GCN+FAME+PFR,Treatment Equality Difference,-0.0365,0.0861,-0.0925,0.0088,10
+credit,GCN,GCN+PFR,Accuracy,0.0002,0.0009,-0.0002,0.0008,10
+credit,GCN,GCN+PFR,Statistical Parity Difference,-0.0002,0.0010,-0.0009,0.0003,10
+credit,GCN,GCN+PFR,Equal Opportunity Difference,-0.0002,0.0013,-0.0011,0.0003,10
+credit,GCN,GCN+PFR,Overall Accuracy Equality Difference,0.0002,0.0010,-0.0003,0.0008,10
+credit,GCN,GCN+PFR,Treatment Equality Difference,-0.0009,0.0047,-0.0040,0.0011,10
+credit,GCN,GIN,Accuracy,0.0259,0.0584,0.0111,0.0426,49
+credit,GCN,GIN,Statistical Parity Difference,-0.0259,0.0604,-0.0455,-0.0113,49
+credit,GCN,GIN,Equal Opportunity Difference,-0.0239,0.0528,-0.0395,-0.0109,49
+credit,GCN,GIN,Overall Accuracy Equality Difference,0.0113,0.0194,0.0066,0.0171,49
+credit,GCN,GIN,Treatment Equality Difference,-0.2606,0.9098,-0.5654,-0.0755,49
+credit,GCN,GIN+PFR,Accuracy,0.0123,0.0219,0.0019,0.0264,10
+credit,GCN,GIN+PFR,Statistical Parity Difference,-0.0106,0.0110,-0.0177,-0.0049,10
+credit,GCN,GIN+PFR,Equal Opportunity Difference,-0.0090,0.0118,-0.0166,-0.0029,10
+credit,GCN,GIN+PFR,Overall Accuracy Equality Difference,0.0086,0.0113,0.0029,0.0158,10
+credit,GCN,GIN+PFR,Treatment Equality Difference,-0.0492,0.0783,-0.1023,-0.0120,10
+credit,GCN+FAME,GCN+FAME+PFR,Accuracy,0.0006,0.0007,0.0002,0.0010,10
+credit,GCN+FAME,GCN+FAME+PFR,Statistical Parity Difference,-0.0069,0.0089,-0.0124,-0.0020,10
+credit,GCN+FAME,GCN+FAME+PFR,Equal Opportunity Difference,-0.0094,0.0115,-0.0166,-0.0029,10
+credit,GCN+FAME,GCN+FAME+PFR,Overall Accuracy Equality Difference,-0.0059,0.0070,-0.0103,-0.0020,10
+credit,GCN+FAME,GCN+FAME+PFR,Treatment Equality Difference,-0.0202,0.0251,-0.0362,-0.0066,10
+credit,GCN+FAME,GCN+PFR,Accuracy,-0.0112,0.0220,-0.0262,-0.0009,10
+credit,GCN+FAME,GCN+PFR,Statistical Parity Difference,-0.0013,0.0217,-0.0138,0.0116,10
+credit,GCN+FAME,GCN+PFR,Equal Opportunity Difference,-0.0062,0.0250,-0.0206,0.0085,10
+credit,GCN+FAME,GCN+PFR,Overall Accuracy Equality Difference,-0.0172,0.0140,-0.0253,-0.0093,10
+credit,GCN+FAME,GCN+PFR,Treatment Equality Difference,0.0154,0.0969,-0.0334,0.0825,10
+credit,GCN+FAME,GIN,Accuracy,0.0009,0.0011,0.0006,0.0012,49
+credit,GCN+FAME,GIN,Statistical Parity Difference,-0.0121,0.0152,-0.0165,-0.0079,49
+credit,GCN+FAME,GIN,Equal Opportunity Difference,-0.0151,0.0200,-0.0207,-0.0096,49
+credit,GCN+FAME,GIN,Overall Accuracy Equality Difference,-0.0084,0.0126,-0.0119,-0.0053,49
+credit,GCN+FAME,GIN,Treatment Equality Difference,-0.0336,0.0437,-0.0466,-0.0219,49
+credit,GCN+FAME,GIN+PFR,Accuracy,0.0009,0.0011,0.0003,0.0016,10
+credit,GCN+FAME,GIN+PFR,Statistical Parity Difference,-0.0117,0.0138,-0.0206,-0.0041,10
+credit,GCN+FAME,GIN+PFR,Equal Opportunity Difference,-0.0150,0.0180,-0.0259,-0.0047,10
+credit,GCN+FAME,GIN+PFR,Overall Accuracy Equality Difference,-0.0087,0.0110,-0.0151,-0.0028,10
+credit,GCN+FAME,GIN+PFR,Treatment Equality Difference,-0.0330,0.0391,-0.0567,-0.0118,10
+credit,GCN+FAME+PFR,GCN+PFR,Accuracy,-0.0109,0.0210,-0.0240,-0.0017,11
+credit,GCN+FAME+PFR,GCN+PFR,Statistical Parity Difference,0.0042,0.0164,-0.0050,0.0133,11
+credit,GCN+FAME+PFR,GCN+PFR,Equal Opportunity Difference,0.0023,0.0179,-0.0081,0.0123,11
+credit,GCN+FAME+PFR,GCN+PFR,Overall Accuracy Equality Difference,-0.0105,0.0125,-0.0180,-0.0039,11
+credit,GCN+FAME+PFR,GCN+PFR,Treatment Equality Difference,0.0291,0.0845,-0.0123,0.0833,11
+credit,GCN+FAME+PFR,GIN,Accuracy,0.0004,0.0007,0.0001,0.0008,10
+credit,GCN+FAME+PFR,GIN,Statistical Parity Difference,-0.0062,0.0097,-0.0119,-0.0017,10
+credit,GCN+FAME+PFR,GIN,Equal Opportunity Difference,-0.0072,0.0123,-0.0154,-0.0006,10
+credit,GCN+FAME+PFR,GIN,Overall Accuracy Equality Difference,-0.0036,0.0072,-0.0081,-0.0005,10
+credit,GCN+FAME+PFR,GIN,Treatment Equality Difference,-0.0162,0.0266,-0.0330,-0.0043,10
+credit,GCN+FAME+PFR,GIN+PFR,Accuracy,0.0004,0.0006,0.0001,0.0008,11
+credit,GCN+FAME+PFR,GIN+PFR,Statistical Parity Difference,-0.0057,0.0094,-0.0111,-0.0009,11
+credit,GCN+FAME+PFR,GIN+PFR,Equal Opportunity Difference,-0.0066,0.0118,-0.0140,-0.0005,11
+credit,GCN+FAME+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0033,0.0069,-0.0073,0.0000,11
+credit,GCN+FAME+PFR,GIN+PFR,Treatment Equality Difference,-0.0149,0.0256,-0.0304,-0.0024,11
+credit,GCN+PFR,GIN,Accuracy,0.0124,0.0216,0.0027,0.0272,10
+credit,GCN+PFR,GIN,Statistical Parity Difference,-0.0109,0.0108,-0.0177,-0.0053,10
+credit,GCN+PFR,GIN,Equal Opportunity Difference,-0.0097,0.0114,-0.0173,-0.0041,10
+credit,GCN+PFR,GIN,Overall Accuracy Equality Difference,0.0079,0.0116,0.0020,0.0155,10
+credit,GCN+PFR,GIN,Treatment Equality Difference,-0.0484,0.0779,-0.0996,-0.0104,10
+credit,GCN+PFR,GIN+PFR,Accuracy,0.0112,0.0209,0.0021,0.0247,11
+credit,GCN+PFR,GIN+PFR,Statistical Parity Difference,-0.0099,0.0108,-0.0168,-0.0046,11
+credit,GCN+PFR,GIN+PFR,Equal Opportunity Difference,-0.0088,0.0112,-0.0162,-0.0036,11
+credit,GCN+PFR,GIN+PFR,Overall Accuracy Equality Difference,0.0072,0.0113,0.0016,0.0144,11
+credit,GCN+PFR,GIN+PFR,Treatment Equality Difference,-0.0440,0.0753,-0.0945,-0.0101,11
+credit,GIN,GIN+PFR,Accuracy,0.0000,0.0000,0.0000,0.0000,10
+credit,GIN,GIN+PFR,Statistical Parity Difference,0.0000,0.0000,0.0000,0.0000,10
+credit,GIN,GIN+PFR,Equal Opportunity Difference,0.0000,0.0000,0.0000,0.0000,10
+credit,GIN,GIN+PFR,Overall Accuracy Equality Difference,0.0000,0.0000,0.0000,0.0000,10
+credit,GIN,GIN+PFR,Treatment Equality Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT,GAT+FAME,Accuracy,0.1251,0.2612,0.0507,0.1956,50
+german,GAT,GAT+FAME,Statistical Parity Difference,0.0305,0.0602,0.0159,0.0498,50
+german,GAT,GAT+FAME,Equal Opportunity Difference,0.0391,0.0713,0.0215,0.0584,50
+german,GAT,GAT+FAME,Overall Accuracy Equality Difference,0.0169,0.0410,0.0061,0.0288,50
+german,GAT,GAT+FAME,Treatment Equality Difference,0.8447,2.7695,0.2024,1.7043,50
+german,GAT,GAT+FAME+PFR,Accuracy,0.2347,0.2841,0.0703,0.3990,10
+german,GAT,GAT+FAME+PFR,Statistical Parity Difference,0.0288,0.0578,0.0012,0.0646,10
+german,GAT,GAT+FAME+PFR,Equal Opportunity Difference,0.0213,0.0448,0.0000,0.0506,10
+german,GAT,GAT+FAME+PFR,Overall Accuracy Equality Difference,0.0010,0.0111,-0.0051,0.0074,10
+german,GAT,GAT+FAME+PFR,Treatment Equality Difference,0.3914,1.0673,0.0000,1.0758,10
+german,GAT,GAT+PFR,Accuracy,0.0000,0.0000,0.0000,0.0000,10
+german,GAT,GAT+PFR,Statistical Parity Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT,GAT+PFR,Equal Opportunity Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT,GAT+PFR,Overall Accuracy Equality Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT,GAT+PFR,Treatment Equality Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT,GCN,Accuracy,0.0832,0.2800,0.0036,0.1604,50
+german,GAT,GCN,Statistical Parity Difference,0.0018,0.0113,0.0000,0.0052,50
+german,GAT,GCN,Equal Opportunity Difference,0.0005,0.0026,0.0000,0.0014,50
+german,GAT,GCN,Overall Accuracy Equality Difference,0.0012,0.0070,0.0000,0.0034,50
+german,GAT,GCN,Treatment Equality Difference,0.0448,0.3165,0.0000,0.1343,50
+german,GAT,GCN+FAME,Accuracy,0.2050,0.2243,0.1426,0.2673,50
+german,GAT,GCN+FAME,Statistical Parity Difference,0.0000,0.0000,0.0000,0.0000,50
+german,GAT,GCN+FAME,Equal Opportunity Difference,0.0000,0.0000,0.0000,0.0000,50
+german,GAT,GCN+FAME,Overall Accuracy Equality Difference,0.0000,0.0000,0.0000,0.0000,50
+german,GAT,GCN+FAME,Treatment Equality Difference,0.0000,0.0000,0.0000,0.0000,50
+german,GAT,GCN+FAME+PFR,Accuracy,0.3089,0.2132,0.1762,0.4386,10
+german,GAT,GCN+FAME+PFR,Statistical Parity Difference,0.0037,0.0060,0.0000,0.0074,10
+german,GAT,GCN+FAME+PFR,Equal Opportunity Difference,0.0052,0.0083,0.0000,0.0103,10
+german,GAT,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0037,0.0060,0.0000,0.0074,10
+german,GAT,GCN+FAME+PFR,Treatment Equality Difference,0.0130,0.0210,0.0000,0.0261,10
+german,GAT,GCN+PFR,Accuracy,0.2347,0.2251,0.1010,0.3683,10
+german,GAT,GCN+PFR,Statistical Parity Difference,0.0015,0.0049,0.0000,0.0046,10
+german,GAT,GCN+PFR,Equal Opportunity Difference,0.0059,0.0185,0.0000,0.0176,10
+german,GAT,GCN+PFR,Overall Accuracy Equality Difference,0.0086,0.0271,0.0000,0.0257,10
+german,GAT,GCN+PFR,Treatment Equality Difference,0.4750,1.5021,0.0000,1.4250,10
+german,GAT,GIN,Accuracy,0.1968,0.2255,0.1352,0.2576,49
+german,GAT,GIN,Statistical Parity Difference,0.0319,0.0732,0.0131,0.0548,49
+german,GAT,GIN,Equal Opportunity Difference,0.0319,0.0702,0.0146,0.0532,49
+german,GAT,GIN,Overall Accuracy Equality Difference,0.0046,0.0154,0.0007,0.0091,49
+german,GAT,GIN,Treatment Equality Difference,0.1944,0.5392,0.0697,0.3694,49
+german,GAT,GIN+PFR,Accuracy,0.3109,0.2146,0.1772,0.4436,10
+german,GAT,GIN+PFR,Statistical Parity Difference,0.0050,0.0158,0.0000,0.0150,10
+german,GAT,GIN+PFR,Equal Opportunity Difference,0.0067,0.0211,0.0000,0.0200,10
+german,GAT,GIN+PFR,Overall Accuracy Equality Difference,-0.0018,0.0057,-0.0054,0.0000,10
+german,GAT,GIN+PFR,Treatment Equality Difference,0.0200,0.0632,0.0000,0.0600,10
+german,GAT+FAME,GAT+FAME+PFR,Accuracy,-0.0149,0.1060,-0.0871,0.0297,10
+german,GAT+FAME,GAT+FAME+PFR,Statistical Parity Difference,0.0073,0.0734,-0.0349,0.0491,10
+german,GAT+FAME,GAT+FAME+PFR,Equal Opportunity Difference,-0.0099,0.0843,-0.0639,0.0337,10
+german,GAT+FAME,GAT+FAME+PFR,Overall Accuracy Equality Difference,-0.0183,0.0450,-0.0460,0.0062,10
+german,GAT+FAME,GAT+FAME+PFR,Treatment Equality Difference,0.2827,1.1191,-0.1684,1.0377,10
+german,GAT+FAME,GAT+PFR,Accuracy,-0.2495,0.2165,-0.3762,-0.1237,10
+german,GAT+FAME,GAT+PFR,Statistical Parity Difference,-0.0215,0.0471,-0.0531,-0.0013,10
+german,GAT+FAME,GAT+PFR,Equal Opportunity Difference,-0.0311,0.0669,-0.0759,-0.0034,10
+german,GAT+FAME,GAT+PFR,Overall Accuracy Equality Difference,-0.0193,0.0418,-0.0475,0.0014,10
+german,GAT+FAME,GAT+PFR,Treatment Equality Difference,-0.1088,0.2117,-0.2502,-0.0130,10
+german,GAT+FAME,GCN,Accuracy,-0.0420,0.2464,-0.1085,0.0273,50
+german,GAT+FAME,GCN,Statistical Parity Difference,-0.0286,0.0576,-0.0459,-0.0150,50
+german,GAT+FAME,GCN,Equal Opportunity Difference,-0.0386,0.0704,-0.0595,-0.0207,50
+german,GAT+FAME,GCN,Overall Accuracy Equality Difference,-0.0157,0.0390,-0.0269,-0.0058,50
+german,GAT+FAME,GCN,Treatment Equality Difference,-0.8000,2.7905,-1.6102,-0.1453,50
+german,GAT+FAME,GCN+FAME,Accuracy,0.0798,0.1488,0.0428,0.1216,50
+german,GAT+FAME,GCN+FAME,Statistical Parity Difference,-0.0305,0.0602,-0.0484,-0.0165,50
+german,GAT+FAME,GCN+FAME,Equal Opportunity Difference,-0.0391,0.0713,-0.0609,-0.0217,50
+german,GAT+FAME,GCN+FAME,Overall Accuracy Equality Difference,-0.0169,0.0410,-0.0284,-0.0062,50
+german,GAT+FAME,GCN+FAME,Treatment Equality Difference,-0.8447,2.7695,-1.7564,-0.1767,50
+german,GAT+FAME,GCN+FAME+PFR,Accuracy,0.0594,0.1354,0.0059,0.1465,10
+german,GAT+FAME,GCN+FAME+PFR,Statistical Parity Difference,-0.0178,0.0482,-0.0492,0.0022,10
+german,GAT+FAME,GCN+FAME+PFR,Equal Opportunity Difference,-0.0260,0.0692,-0.0707,0.0034,10
+german,GAT+FAME,GCN+FAME+PFR,Overall Accuracy Equality Difference,-0.0156,0.0445,-0.0443,0.0064,10
+german,GAT+FAME,GCN+FAME+PFR,Treatment Equality Difference,-0.0957,0.2145,-0.2426,0.0000,10
+german,GAT+FAME,GCN+PFR,Accuracy,-0.0149,0.2254,-0.1367,0.1168,10
+german,GAT+FAME,GCN+PFR,Statistical Parity Difference,-0.0200,0.0424,-0.0471,-0.0025,10
+german,GAT+FAME,GCN+PFR,Equal Opportunity Difference,-0.0253,0.0492,-0.0576,-0.0028,10
+german,GAT+FAME,GCN+PFR,Overall Accuracy Equality Difference,-0.0107,0.0283,-0.0286,0.0015,10
+german,GAT+FAME,GCN+PFR,Treatment Equality Difference,0.3662,1.3097,-0.0881,1.2085,10
+german,GAT+FAME,GIN,Accuracy,0.0691,0.1442,0.0315,0.1123,49
+german,GAT+FAME,GIN,Statistical Parity Difference,0.0008,0.0883,-0.0255,0.0247,49
+german,GAT+FAME,GIN,Equal Opportunity Difference,-0.0079,0.0902,-0.0336,0.0172,49
+german,GAT+FAME,GIN,Overall Accuracy Equality Difference,-0.0127,0.0423,-0.0251,-0.0019,49
+german,GAT+FAME,GIN,Treatment Equality Difference,-0.6676,2.8059,-1.5011,0.0058,49
+german,GAT+FAME,GIN+PFR,Accuracy,0.0614,0.1350,0.0069,0.1495,10
+german,GAT+FAME,GIN+PFR,Statistical Parity Difference,-0.0165,0.0520,-0.0504,0.0088,10
+german,GAT+FAME,GIN+PFR,Equal Opportunity Difference,-0.0245,0.0733,-0.0754,0.0103,10
+german,GAT+FAME,GIN+PFR,Overall Accuracy Equality Difference,-0.0211,0.0412,-0.0477,0.0001,10
+german,GAT+FAME,GIN+PFR,Treatment Equality Difference,-0.0888,0.2317,-0.2378,0.0226,10
+german,GAT+FAME+PFR,GAT+PFR,Accuracy,-0.2133,0.2787,-0.3627,-0.0531,11
+german,GAT+FAME+PFR,GAT+PFR,Statistical Parity Difference,-0.0262,0.0555,-0.0595,-0.0011,11
+german,GAT+FAME+PFR,GAT+PFR,Equal Opportunity Difference,-0.0193,0.0430,-0.0460,0.0000,11
+german,GAT+FAME+PFR,GAT+PFR,Overall Accuracy Equality Difference,-0.0010,0.0105,-0.0077,0.0047,11
+german,GAT+FAME+PFR,GAT+PFR,Treatment Equality Difference,-0.3558,1.0193,-1.0128,0.0000,11
+german,GAT+FAME+PFR,GCN,Accuracy,-0.0426,0.2935,-0.2109,0.1248,10
+german,GAT+FAME+PFR,GCN,Statistical Parity Difference,-0.0209,0.0669,-0.0630,0.0133,10
+german,GAT+FAME+PFR,GCN,Equal Opportunity Difference,-0.0207,0.0452,-0.0517,0.0000,10
+german,GAT+FAME+PFR,GCN,Overall Accuracy Equality Difference,0.0038,0.0191,-0.0062,0.0159,10
+german,GAT+FAME+PFR,GCN,Treatment Equality Difference,-0.1676,1.3545,-1.0287,0.6200,10
+german,GAT+FAME+PFR,GCN+FAME,Accuracy,0.0772,0.1611,0.0010,0.1822,10
+german,GAT+FAME+PFR,GCN+FAME,Statistical Parity Difference,-0.0288,0.0578,-0.0700,-0.0025,10
+german,GAT+FAME+PFR,GCN+FAME,Equal Opportunity Difference,-0.0213,0.0448,-0.0506,0.0000,10
+german,GAT+FAME+PFR,GCN+FAME,Overall Accuracy Equality Difference,-0.0010,0.0111,-0.0086,0.0051,10
+german,GAT+FAME+PFR,GCN+FAME,Treatment Equality Difference,-0.3914,1.0673,-1.0758,0.0000,10
+german,GAT+FAME+PFR,GCN+FAME+PFR,Accuracy,0.0675,0.1531,-0.0009,0.1602,11
+german,GAT+FAME+PFR,GCN+FAME+PFR,Statistical Parity Difference,-0.0228,0.0537,-0.0591,0.0022,11
+german,GAT+FAME+PFR,GCN+FAME+PFR,Equal Opportunity Difference,-0.0146,0.0405,-0.0402,0.0047,11
+german,GAT+FAME+PFR,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0024,0.0095,-0.0032,0.0077,11
+german,GAT+FAME+PFR,GCN+FAME+PFR,Treatment Equality Difference,-0.3440,1.0221,-0.9742,0.0119,11
+german,GAT+FAME+PFR,GCN+PFR,Accuracy,0.0000,0.2447,-0.1494,0.1395,11
+german,GAT+FAME+PFR,GCN+PFR,Statistical Parity Difference,-0.0248,0.0565,-0.0599,0.0006,11
+german,GAT+FAME+PFR,GCN+PFR,Equal Opportunity Difference,-0.0140,0.0489,-0.0444,0.0093,11
+german,GAT+FAME+PFR,GCN+PFR,Overall Accuracy Equality Difference,0.0068,0.0282,-0.0056,0.0258,11
+german,GAT+FAME+PFR,GCN+PFR,Treatment Equality Difference,0.0760,1.8515,-0.9312,1.2059,11
+german,GAT+FAME+PFR,GIN,Accuracy,0.0267,0.1555,-0.0584,0.1218,10
+german,GAT+FAME+PFR,GIN,Statistical Parity Difference,0.0522,0.1533,-0.0329,0.1477,10
+german,GAT+FAME+PFR,GIN,Equal Opportunity Difference,0.0508,0.1265,-0.0211,0.1278,10
+german,GAT+FAME+PFR,GIN,Overall Accuracy Equality Difference,0.0086,0.0258,-0.0049,0.0242,10
+german,GAT+FAME+PFR,GIN,Treatment Equality Difference,0.7572,2.6294,-0.7165,2.4474,10
+german,GAT+FAME+PFR,GIN+PFR,Accuracy,0.0693,0.1522,0.0009,0.1647,11
+german,GAT+FAME+PFR,GIN+PFR,Statistical Parity Difference,-0.0217,0.0598,-0.0594,0.0069,11
+german,GAT+FAME+PFR,GIN+PFR,Equal Opportunity Difference,-0.0133,0.0501,-0.0439,0.0121,11
+german,GAT+FAME+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0026,0.0117,-0.0095,0.0039,11
+german,GAT+FAME+PFR,GIN+PFR,Treatment Equality Difference,-0.3376,1.0281,-0.9780,0.0324,11
+german,GAT+PFR,GCN,Accuracy,0.1921,0.2222,0.0584,0.3257,10
+german,GAT+PFR,GCN,Statistical Parity Difference,0.0079,0.0250,0.0000,0.0237,10
+german,GAT+PFR,GCN,Equal Opportunity Difference,0.0006,0.0018,0.0000,0.0017,10
+german,GAT+PFR,GCN,Overall Accuracy Equality Difference,0.0048,0.0152,0.0000,0.0144,10
+german,GAT+PFR,GCN,Treatment Equality Difference,0.2238,0.7077,0.0000,0.6714,10
+german,GAT+PFR,GCN+FAME,Accuracy,0.3119,0.2152,0.1782,0.4021,10
+german,GAT+PFR,GCN+FAME,Statistical Parity Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT+PFR,GCN+FAME,Equal Opportunity Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT+PFR,GCN+FAME,Overall Accuracy Equality Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT+PFR,GCN+FAME,Treatment Equality Difference,0.0000,0.0000,0.0000,0.0000,10
+german,GAT+PFR,GCN+FAME+PFR,Accuracy,0.2808,0.2227,0.1602,0.4014,11
+german,GAT+PFR,GCN+FAME+PFR,Statistical Parity Difference,0.0034,0.0058,0.0000,0.0067,11
+german,GAT+PFR,GCN+FAME+PFR,Equal Opportunity Difference,0.0047,0.0081,0.0000,0.0094,11
+german,GAT+PFR,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0034,0.0058,0.0000,0.0067,11
+german,GAT+PFR,GCN+FAME+PFR,Treatment Equality Difference,0.0119,0.0203,0.0000,0.0237,11
+german,GAT+PFR,GCN+PFR,Accuracy,0.2133,0.2250,0.0918,0.3348,11
+german,GAT+PFR,GCN+PFR,Statistical Parity Difference,0.0014,0.0047,0.0000,0.0042,11
+german,GAT+PFR,GCN+PFR,Equal Opportunity Difference,0.0053,0.0177,0.0000,0.0160,11
+german,GAT+PFR,GCN+PFR,Overall Accuracy Equality Difference,0.0078,0.0259,0.0000,0.0234,11
+german,GAT+PFR,GCN+PFR,Treatment Equality Difference,0.4318,1.4322,0.0000,1.2955,11
+german,GAT+PFR,GIN,Accuracy,0.2624,0.2460,0.1119,0.4011,10
+german,GAT+PFR,GIN,Statistical Parity Difference,0.0798,0.1233,0.0202,0.1559,10
+german,GAT+PFR,GIN,Equal Opportunity Difference,0.0703,0.1044,0.0129,0.1376,10
+german,GAT+PFR,GIN,Overall Accuracy Equality Difference,0.0085,0.0237,-0.0035,0.0230,10
+german,GAT+PFR,GIN,Treatment Equality Difference,1.1443,2.1879,0.1389,2.6296,10
+german,GAT+PFR,GIN+PFR,Accuracy,0.2826,0.2241,0.1611,0.4041,11
+german,GAT+PFR,GIN+PFR,Statistical Parity Difference,0.0045,0.0151,0.0000,0.0136,11
+german,GAT+PFR,GIN+PFR,Equal Opportunity Difference,0.0061,0.0201,0.0000,0.0182,11
+german,GAT+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0016,0.0054,-0.0049,0.0000,11
+german,GAT+PFR,GIN+PFR,Treatment Equality Difference,0.0182,0.0603,0.0000,0.0545,11
+german,GCN,GCN+FAME,Accuracy,0.1218,0.1982,0.0711,0.1772,50
+german,GCN,GCN+FAME,Statistical Parity Difference,-0.0018,0.0113,-0.0052,0.0000,50
+german,GCN,GCN+FAME,Equal Opportunity Difference,-0.0005,0.0026,-0.0013,0.0000,50
+german,GCN,GCN+FAME,Overall Accuracy Equality Difference,-0.0012,0.0070,-0.0034,0.0000,50
+german,GCN,GCN+FAME,Treatment Equality Difference,-0.0448,0.3165,-0.1343,0.0000,50
+german,GCN,GCN+FAME+PFR,Accuracy,0.1168,0.1986,0.0257,0.2386,10
+german,GCN,GCN+FAME+PFR,Statistical Parity Difference,-0.0042,0.0269,-0.0225,0.0074,10
+german,GCN,GCN+FAME+PFR,Equal Opportunity Difference,0.0046,0.0089,-0.0000,0.0103,10
+german,GCN,GCN+FAME+PFR,Overall Accuracy Equality Difference,-0.0011,0.0175,-0.0132,0.0074,10
+german,GCN,GCN+FAME+PFR,Treatment Equality Difference,-0.2108,0.7126,-0.6671,0.0217,10
+german,GCN,GCN+PFR,Accuracy,0.0426,0.1417,-0.0059,0.1337,10
+german,GCN,GCN+PFR,Statistical Parity Difference,-0.0064,0.0201,-0.0191,0.0000,10
+german,GCN,GCN+PFR,Equal Opportunity Difference,0.0053,0.0167,0.0000,0.0159,10
+german,GCN,GCN+PFR,Overall Accuracy Equality Difference,0.0038,0.0119,0.0000,0.0113,10
+german,GCN,GCN+PFR,Treatment Equality Difference,0.2512,0.7943,0.0000,0.7536,10
+german,GCN,GIN,Accuracy,0.1119,0.1997,0.0556,0.1707,49
+german,GCN,GIN,Statistical Parity Difference,0.0300,0.0703,0.0127,0.0510,49
+german,GCN,GIN,Equal Opportunity Difference,0.0315,0.0701,0.0132,0.0524,49
+german,GCN,GIN,Overall Accuracy Equality Difference,0.0033,0.0135,0.0000,0.0077,49
+german,GCN,GIN,Treatment Equality Difference,0.1487,0.5306,0.0223,0.3170,49
+german,GCN,GIN+PFR,Accuracy,0.1188,0.1972,-0.0010,0.2515,10
+german,GCN,GIN+PFR,Statistical Parity Difference,-0.0029,0.0310,-0.0237,0.0150,10
+german,GCN,GIN+PFR,Equal Opportunity Difference,0.0061,0.0214,-0.0011,0.0200,10
+german,GCN,GIN+PFR,Overall Accuracy Equality Difference,-0.0066,0.0156,-0.0168,0.0000,10
+german,GCN,GIN+PFR,Treatment Equality Difference,-0.2038,0.7175,-0.6714,0.0600,10
+german,GCN+FAME,GCN+FAME+PFR,Accuracy,-0.0030,0.0048,-0.0059,0.0000,10
+german,GCN+FAME,GCN+FAME+PFR,Statistical Parity Difference,0.0037,0.0060,0.0000,0.0074,10
+german,GCN+FAME,GCN+FAME+PFR,Equal Opportunity Difference,0.0052,0.0083,0.0000,0.0103,10
+german,GCN+FAME,GCN+FAME+PFR,Overall Accuracy Equality Difference,0.0037,0.0060,0.0000,0.0074,10
+german,GCN+FAME,GCN+FAME+PFR,Treatment Equality Difference,0.0130,0.0210,0.0000,0.0261,10
+german,GCN+FAME,GCN+PFR,Accuracy,-0.0772,0.1652,-0.1784,0.0000,10
+german,GCN+FAME,GCN+PFR,Statistical Parity Difference,0.0015,0.0049,0.0000,0.0046,10
+german,GCN+FAME,GCN+PFR,Equal Opportunity Difference,0.0059,0.0185,0.0000,0.0176,10
+german,GCN+FAME,GCN+PFR,Overall Accuracy Equality Difference,0.0086,0.0271,0.0000,0.0257,10
+german,GCN+FAME,GCN+PFR,Treatment Equality Difference,0.4750,1.5021,0.0000,1.4250,10
+german,GCN+FAME,GIN,Accuracy,-0.0123,0.0317,-0.0224,-0.0048,49
+german,GCN+FAME,GIN,Statistical Parity Difference,0.0319,0.0732,0.0133,0.0531,49
+german,GCN+FAME,GIN,Equal Opportunity Difference,0.0319,0.0702,0.0143,0.0527,49
+german,GCN+FAME,GIN,Overall Accuracy Equality Difference,0.0046,0.0154,0.0007,0.0092,49
+german,GCN+FAME,GIN,Treatment Equality Difference,0.1944,0.5392,0.0730,0.3586,49
+german,GCN+FAME,GIN+PFR,Accuracy,-0.0010,0.0031,-0.0030,0.0000,10
+german,GCN+FAME,GIN+PFR,Statistical Parity Difference,0.0050,0.0158,0.0000,0.0150,10
+german,GCN+FAME,GIN+PFR,Equal Opportunity Difference,0.0067,0.0211,0.0000,0.0200,10
+german,GCN+FAME,GIN+PFR,Overall Accuracy Equality Difference,-0.0018,0.0057,-0.0054,0.0000,10
+german,GCN+FAME,GIN+PFR,Treatment Equality Difference,0.0200,0.0632,0.0000,0.0600,10
+german,GCN+FAME+PFR,GCN+PFR,Accuracy,-0.0675,0.1598,-0.1674,0.0045,11
+german,GCN+FAME+PFR,GCN+PFR,Statistical Parity Difference,-0.0020,0.0081,-0.0067,0.0028,11
+german,GCN+FAME+PFR,GCN+PFR,Equal Opportunity Difference,0.0006,0.0208,-0.0094,0.0144,11
+german,GCN+FAME+PFR,GCN+PFR,Overall Accuracy Equality Difference,0.0044,0.0276,-0.0056,0.0223,11
+german,GCN+FAME+PFR,GCN+PFR,Treatment Equality Difference,0.4200,1.4362,-0.0237,1.2915,11
+german,GCN+FAME+PFR,GIN,Accuracy,-0.0465,0.0732,-0.0950,-0.0069,10
+german,GCN+FAME+PFR,GIN,Statistical Parity Difference,0.0761,0.1226,0.0052,0.1522,10
+german,GCN+FAME+PFR,GIN,Equal Opportunity Difference,0.0652,0.1036,0.0102,0.1300,10
+german,GCN+FAME+PFR,GIN,Overall Accuracy Equality Difference,0.0048,0.0232,-0.0072,0.0200,10
+german,GCN+FAME+PFR,GIN,Treatment Equality Difference,1.1312,2.1885,0.1171,2.4825,10
+german,GCN+FAME+PFR,GIN+PFR,Accuracy,0.0018,0.0040,0.0000,0.0045,11
+german,GCN+FAME+PFR,GIN+PFR,Statistical Parity Difference,0.0012,0.0131,-0.0045,0.0103,11
+german,GCN+FAME+PFR,GIN+PFR,Equal Opportunity Difference,0.0014,0.0174,-0.0063,0.0119,11
+german,GCN+FAME+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0050,0.0097,-0.0111,0.0000,11
+german,GCN+FAME+PFR,GIN+PFR,Treatment Equality Difference,0.0063,0.0528,-0.0158,0.0427,11
+german,GCN+PFR,GIN,Accuracy,0.0277,0.1843,-0.0713,0.1406,10
+german,GCN+PFR,GIN,Statistical Parity Difference,0.0783,0.1217,0.0153,0.1525,10
+german,GCN+PFR,GIN,Equal Opportunity Difference,0.0645,0.0971,0.0129,0.1284,10
+german,GCN+PFR,GIN,Overall Accuracy Equality Difference,-0.0001,0.0187,-0.0094,0.0129,10
+german,GCN+PFR,GIN,Treatment Equality Difference,0.6693,2.6048,-0.6722,2.3319,10
+german,GCN+PFR,GIN+PFR,Accuracy,0.0693,0.1589,-0.0018,0.1701,11
+german,GCN+PFR,GIN+PFR,Statistical Parity Difference,0.0031,0.0162,-0.0042,0.0136,11
+german,GCN+PFR,GIN+PFR,Equal Opportunity Difference,0.0007,0.0281,-0.0160,0.0182,11
+german,GCN+PFR,GIN+PFR,Overall Accuracy Equality Difference,-0.0094,0.0259,-0.0250,0.0000,11
+german,GCN+PFR,GIN+PFR,Treatment Equality Difference,-0.4136,1.4395,-1.2955,0.0545,11
+german,GIN,GIN+PFR,Accuracy,0.0485,0.0716,0.0099,0.0931,10
+german,GIN,GIN+PFR,Statistical Parity Difference,-0.0748,0.1133,-0.1459,-0.0114,10
+german,GIN,GIN+PFR,Equal Opportunity Difference,-0.0637,0.0912,-0.1199,-0.0154,10
+german,GIN,GIN+PFR,Overall Accuracy Equality Difference,-0.0102,0.0272,-0.0283,0.0035,10
+german,GIN,GIN+PFR,Treatment Equality Difference,-1.1243,2.1677,-2.5902,-0.0436,10

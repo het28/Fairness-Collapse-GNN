@@ -1,0 +1,335 @@
+{
+  "credit|GCN": {
+    "Statistical Parity Difference": {
+      "mean": 0.03573626776536306,
+      "std": 0.059640287139826755,
+      "ci_low": 0.017443051487207418,
+      "ci_high": 0.0594249798109134,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.03669075071811676,
+      "std": 0.06555891419829891,
+      "ci_low": 0.016342186927795422,
+      "ci_high": 0.06254882283508775,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.2287876397371292,
+      "std": 0.03394609549764796,
+      "ci_low": 0.2143822376181682,
+      "ci_high": 0.23955759609738986,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 90.08453160408449,
+      "std": 172.66562949627502,
+      "ci_low": 37.703082953217645,
+      "ci_high": 159.59013778746797,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.7561146249373754,
+      "std": 0.0634437678509736,
+      "ci_low": 0.7293690960357587,
+      "ci_high": 0.7731422842045624,
+      "n": 30
+    }
+  },
+  "credit|GAT": {
+    "Statistical Parity Difference": {
+      "mean": 0.022494913389285404,
+      "std": 0.05451325980562605,
+      "ci_low": 0.005780177776080876,
+      "ci_high": 0.04270588775320598,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.023447616770863534,
+      "std": 0.05614289451379727,
+      "ci_low": 0.006381286511508132,
+      "ci_high": 0.04399841101840138,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.2295062482357025,
+      "std": 0.021712998145412082,
+      "ci_low": 0.2205042931251228,
+      "ci_high": 0.23610778918489814,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.6728406884385656,
+      "std": 3.311498375735724,
+      "ci_low": 0.014402563991335972,
+      "ci_high": 1.9347779326968884,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.558513821164767,
+      "std": 0.265302393676649,
+      "ci_low": 0.46418582209696374,
+      "ci_high": 0.6508502622693777,
+      "n": 30
+    }
+  },
+  "credit|GIN": {
+    "Statistical Parity Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.23587566614151,
+      "std": 0.0,
+      "ci_low": 0.23587566614151,
+      "ci_high": 0.23587566614151,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.778740406036377,
+      "std": 0.0,
+      "ci_low": 0.778740406036377,
+      "ci_high": 0.778740406036377,
+      "n": 30
+    }
+  },
+  "german|GCN": {
+    "Statistical Parity Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.328070168197155,
+      "std": 6.945306058219062e-09,
+      "ci_low": 0.3280701657136281,
+      "ci_high": 0.32807017068068184,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.5891089290380478,
+      "std": 0.20766458168768934,
+      "ci_low": 0.5148515005906423,
+      "ci_high": 0.6633663574854533,
+      "n": 30
+    }
+  },
+  "german|GAT": {
+    "Statistical Parity Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.3280701701839765,
+      "std": 7.510288551356357e-09,
+      "ci_low": 0.3280701677004496,
+      "ci_high": 0.3280701726675034,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.0,
+      "std": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.5297029862801234,
+      "std": 0.2245575525826696,
+      "ci_low": 0.4405940721432368,
+      "ci_high": 0.6039604147275289,
+      "n": 30
+    }
+  },
+  "german|GIN": {
+    "Statistical Parity Difference": {
+      "mean": 0.027076021830240885,
+      "std": 0.061711872860772225,
+      "ci_low": 0.008080808321634929,
+      "ci_high": 0.052308607101440426,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.02547421058019002,
+      "std": 0.05664713737983128,
+      "ci_low": 0.007965685923894246,
+      "ci_high": 0.046783352941274635,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.3112918555736542,
+      "std": 0.03695418596965051,
+      "ci_low": 0.2979159911473592,
+      "ci_high": 0.32251460949579874,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.6320115995115996,
+      "std": 1.7036938470109508,
+      "ci_low": 0.1222222222222222,
+      "ci_high": 1.3086534645909644,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.7141914387543996,
+      "std": 0.021399127937405366,
+      "ci_low": 0.7059406101703644,
+      "ci_high": 0.7207921028137207,
+      "n": 30
+    }
+  },
+  "bail|GCN": {
+    "Statistical Parity Difference": {
+      "mean": 0.11737796366214752,
+      "std": 0.03652945207909679,
+      "ci_low": 0.10441965375095606,
+      "ci_high": 0.12993725654979546,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.19719228943188985,
+      "std": 0.06234217013458166,
+      "ci_low": 0.1753787305702766,
+      "ci_high": 0.21827519613007704,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.0855870227018992,
+      "std": 0.026205554802602286,
+      "ci_low": 0.07629173651337623,
+      "ci_high": 0.09486075103282927,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.2555739156328079,
+      "std": 0.17407699645260477,
+      "ci_low": 0.20199555981815753,
+      "ci_high": 0.32538637729058817,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.8349214772383372,
+      "std": 0.025946569840238146,
+      "ci_low": 0.8250741143524647,
+      "ci_high": 0.8435689034561317,
+      "n": 30
+    }
+  },
+  "bail|GAT": {
+    "Statistical Parity Difference": {
+      "mean": 0.1783080942928791,
+      "std": 0.23995262256075234,
+      "ci_low": 0.09976193892924735,
+      "ci_high": 0.26526490092122307,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.16826490523914497,
+      "std": 0.24171386472370213,
+      "ci_low": 0.08982835858439406,
+      "ci_high": 0.26699402754815915,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.19368914862473804,
+      "std": 0.07944435005946135,
+      "ci_low": 0.16816787565747898,
+      "ci_high": 0.22264040050407252,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 20.9048783301593,
+      "std": 49.78675666848887,
+      "ci_low": 6.1380958730335475,
+      "ci_high": 40.48264482619215,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.5836774269739787,
+      "std": 0.13322224277188507,
+      "ci_low": 0.5364879978448153,
+      "ci_high": 0.6298416250695784,
+      "n": 30
+    }
+  },
+  "bail|GIN": {
+    "Statistical Parity Difference": {
+      "mean": 0.15908174763123195,
+      "std": 0.04907555083488225,
+      "ci_low": 0.14156047039975725,
+      "ci_high": 0.17710660019268593,
+      "n": 30
+    },
+    "Equal Opportunity Difference": {
+      "mean": 0.15161210695902508,
+      "std": 0.03814813847707766,
+      "ci_low": 0.13850564310948055,
+      "ci_high": 0.1642330768207709,
+      "n": 30
+    },
+    "Overall Accuracy Equality Difference": {
+      "mean": 0.10694971283276876,
+      "std": 0.05109477879738494,
+      "ci_low": 0.09076968178153039,
+      "ci_high": 0.1261761911213398,
+      "n": 30
+    },
+    "Treatment Equality Difference": {
+      "mean": 0.7609976918896696,
+      "std": 0.8917714599420513,
+      "ci_low": 0.4906068087146791,
+      "ci_high": 1.0975177384643762,
+      "n": 30
+    },
+    "Accuracy": {
+      "mean": 0.9007764240105947,
+      "std": 0.04504397839798799,
+      "ci_low": 0.8835874278346697,
+      "ci_high": 0.9142412226398785,
+      "n": 30
+    }
+  }
+}

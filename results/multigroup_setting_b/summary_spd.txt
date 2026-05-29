@@ -1,0 +1,12 @@
+# Uncertainty summary (mean ± std, 95% CI)
+# Metric: Statistical Parity Difference
+
+bail	GAT	0.0749	0.1157	[0.0383, 0.1174]	n=30
+bail	GCN	0.0082	0.0156	[0.0035, 0.0142]	n=30
+bail	GIN	0.0199	0.0343	[0.0094, 0.0334]	n=30
+credit	GAT	0.0270	0.0363	[0.0151, 0.0399]	n=30
+credit	GCN	0.0182	0.0351	[0.0070, 0.0322]	n=30
+credit	GIN	0.0352	0.0303	[0.0246, 0.0466]	n=30
+german	GAT	0.0735	0.0884	[0.0437, 0.1057]	n=30
+german	GCN	0.1411	0.1039	[0.1043, 0.1767]	n=30
+german	GIN	0.1307	0.1005	[0.0963, 0.1661]	n=30

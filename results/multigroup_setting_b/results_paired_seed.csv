@@ -1,0 +1,46 @@
+dataset,model_a,model_b,metric,diff_mean,diff_std,diff_ci_low,diff_ci_high,n_seeds
+bail,GAT,GCN,Accuracy,0.0570,0.1195,0.0174,0.1033,30
+bail,GAT,GCN,Statistical Parity Difference,-0.0667,0.1192,-0.1102,-0.0268,30
+bail,GAT,GCN,Equal Opportunity Difference,-0.0681,0.1193,-0.1129,-0.0286,30
+bail,GAT,GCN,Overall Accuracy Equality Difference,0.0292,0.0926,0.0000,0.0643,30
+bail,GAT,GCN,Treatment Equality Difference,-5.0795,146.8639,-57.4451,44.2370,30
+bail,GAT,GIN,Accuracy,0.0541,0.1201,0.0159,0.0995,30
+bail,GAT,GIN,Statistical Parity Difference,-0.0550,0.1222,-0.0991,-0.0103,30
+bail,GAT,GIN,Equal Opportunity Difference,-0.0542,0.1230,-0.0994,-0.0144,30
+bail,GAT,GIN,Overall Accuracy Equality Difference,0.0264,0.0957,-0.0033,0.0618,30
+bail,GAT,GIN,Treatment Equality Difference,11.6740,146.4407,-40.6492,59.2512,30
+bail,GCN,GIN,Accuracy,-0.0029,0.0052,-0.0048,-0.0013,30
+bail,GCN,GIN,Statistical Parity Difference,0.0117,0.0369,-0.0000,0.0251,30
+bail,GCN,GIN,Equal Opportunity Difference,0.0139,0.0363,0.0024,0.0276,30
+bail,GCN,GIN,Overall Accuracy Equality Difference,-0.0028,0.0149,-0.0082,0.0024,30
+bail,GCN,GIN,Treatment Equality Difference,16.7535,117.7444,-25.5315,55.8931,30
+german,GAT,GCN,Accuracy,0.0386,0.1042,0.0023,0.0743,30
+german,GAT,GCN,Statistical Parity Difference,0.0676,0.1238,0.0222,0.1098,30
+german,GAT,GCN,Equal Opportunity Difference,0.1073,0.1631,0.0483,0.1637,30
+german,GAT,GCN,Overall Accuracy Equality Difference,0.0164,0.0621,-0.0044,0.0400,30
+german,GAT,GCN,Treatment Equality Difference,0.6822,3.8583,-0.7436,2.0446,30
+german,GAT,GIN,Accuracy,0.0452,0.0801,0.0162,0.0733,30
+german,GAT,GIN,Statistical Parity Difference,0.0571,0.1141,0.0162,0.0972,30
+german,GAT,GIN,Equal Opportunity Difference,0.0872,0.1565,0.0319,0.1417,30
+german,GAT,GIN,Overall Accuracy Equality Difference,0.0132,0.0618,-0.0077,0.0350,30
+german,GAT,GIN,Treatment Equality Difference,1.7039,3.9864,0.2946,3.1044,30
+german,GCN,GIN,Accuracy,0.0066,0.0742,-0.0195,0.0333,30
+german,GCN,GIN,Statistical Parity Difference,-0.0104,0.1387,-0.0589,0.0388,30
+german,GCN,GIN,Equal Opportunity Difference,-0.0201,0.1898,-0.0842,0.0455,30
+german,GCN,GIN,Overall Accuracy Equality Difference,-0.0033,0.0649,-0.0270,0.0196,30
+german,GCN,GIN,Treatment Equality Difference,1.0217,3.5270,-0.1782,2.2960,30
+credit,GAT,GCN,Accuracy,0.2484,0.2645,0.1580,0.3385,30
+credit,GAT,GCN,Statistical Parity Difference,-0.0088,0.0528,-0.0279,0.0091,30
+credit,GAT,GCN,Equal Opportunity Difference,-0.0165,0.1148,-0.0558,0.0237,30
+credit,GAT,GCN,Overall Accuracy Equality Difference,0.0357,0.0737,0.0099,0.0625,30
+credit,GAT,GCN,Treatment Equality Difference,67.1464,177.9594,16.2338,137.8735,30
+credit,GAT,GIN,Accuracy,0.2851,0.2496,0.2012,0.3704,30
+credit,GAT,GIN,Statistical Parity Difference,0.0083,0.0427,-0.0071,0.0227,30
+credit,GAT,GIN,Equal Opportunity Difference,0.0565,0.1100,0.0164,0.0931,30
+credit,GAT,GIN,Overall Accuracy Equality Difference,0.0967,0.0738,0.0707,0.1205,30
+credit,GAT,GIN,Treatment Equality Difference,106.4045,197.6285,45.0620,185.4417,30
+credit,GCN,GIN,Accuracy,0.0367,0.0645,0.0180,0.0609,30
+credit,GCN,GIN,Statistical Parity Difference,0.0171,0.0434,0.0005,0.0315,30
+credit,GCN,GIN,Equal Opportunity Difference,0.0730,0.0970,0.0375,0.1061,30
+credit,GCN,GIN,Overall Accuracy Equality Difference,0.0610,0.0546,0.0423,0.0812,30
+credit,GCN,GIN,Treatment Equality Difference,39.2580,254.3132,-46.9878,131.0099,30

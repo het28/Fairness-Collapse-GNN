@@ -1,0 +1,49 @@
+# Multi-seed experiment grid for uncertainty-in-fairness evaluation.
+# Used by run_multi_seed.py
+
+# Root of GNNs-FAME repo (override with env GNNs_FAME_ROOT)
+# Auto-detected: GNNs-FAME-main/ or GNNs-FAME/ next to this config
+gnns_fame_root: null
+
+# Number of seeds per (dataset, model) — use >= 30 for stable CIs
+n_seeds: 30
+
+# Seeds: if null, range(0, n_seeds) is used
+# seeds: [0, 1, 2, ...]
+
+# --- "Break every metric" experiments: vary split seed and/or split size ---
+# When set, runs combine train seed + split_seed (or split_configs) to study split-induced variance.
+# Example: split_seeds: [0,1,2,...,9] with n_seeds: 5 → 50 runs per (dataset, model) (different splits).
+# split_seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# split_configs: [[0.8, 0.1], [0.7, 0.15], [0.9, 0.05]]   # train_split, test_split (val = 1 - train - test)
+
+datasets:
+  - credit
+  - german
+  - bail
+  # - pokec-z   # uncomment after running scripts/prepare_pokec_data.py (and git lfs pull if needed)
+  # - pokec-n
+
+models:
+  - { name: GCN, fame: false }
+  - { name: GCN, fame: true }
+  - { name: GAT, fame: false }
+  - { name: GAT, fame: true }
+  - { name: GIN, fame: false }   # vanilla GIN only (no FAME in baseline)
+  # In-processing fairness (PFR = Prejudice Remover): loss regularization; works with GCN, GAT, GIN
+  # - { name: GCN, fame: false, fairness_algo: pfr }
+  # - { name: GAT, fame: false, fairness_algo: pfr }
+  # - { name: GIN, fame: false, fairness_algo: pfr }
+
+# GNNs-FAME main.py defaults (override if needed)
+data_path: dataset
+layers: 4
+hidden: 32
+dropout: 0.5
+epochs: 50   # 20 often causes collapse to "all 1s" → SPD/EOD = 0; 50+ gives more variance
+lr: 0.01
+pfr_lambda: 0.1   # weight for PFR fairness term when fairness_algo: pfr
+
+# Output: all run outputs (stratified split, residual, mitigations, etc.) go under output_base
+output_base: outputs
+results_dir: outputs/multi_seed
