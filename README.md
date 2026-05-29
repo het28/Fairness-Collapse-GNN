@@ -1,4 +1,4 @@
-# Uncertainty in Fairness Metrics for GNN Evaluation (UMAP '26 LBR)
+# Uncertainty in Fairness Metrics for GNN Evaluation
 
 **Positioning:** This is a **survey + reliability audit**, not a new algorithm. We take **existing** GNN fairness work (e.g. [GNNs-FAME](https://github.com/HannanJaved/GNNs-FAME)) and **test** it to show that reported findings can be **unreliable** for specific reasons. The contribution is evidence and guidelines, not a new model.
 
